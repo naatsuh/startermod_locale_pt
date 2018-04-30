@@ -25,7 +25,7 @@
 				"eat": "Pegando Comida",
 				"find_stray_animal": "procurando rastros",
 				"harvest_field": "Colhendo Campos",
-				"idle": "Inativo",
+				"idle": "Nada a fazer",
 				"patrol": "Patrulhando",
 				"plant_crop": "Plantando Sementes",
 				"return_animals": "Retornando ao Pasto",
@@ -58,7 +58,7 @@
 				"incapacitated": "incapacitado",
 				"rescue_citizen": "resgatando [name(data.target)]",
 				"recuperating": "recuperando",
-				"celebrating": "celebrating"
+				"celebrating": "a comemorar"
 			}
 		}
 	}
