@@ -3,47 +3,44 @@
 		"game": {
 			"build2": {
 				"tool_status": {
-					"eraseTool": "Erasing",
-					"roofTool": "Placing Roof",
-					"blocksTool": "Drawing Blocks",
-					"paintTool": "Painting Voxels",
-					"wallTool": "Placing Walls",
-					"stairsTool": "Placing Stairs",
-					"holeTool": "Making Holes",
-					"splitWallTool": "Splitting Walls",
-					"roomTool": "Placing Room",
-					"pointerTool": "Pointer"
+					"eraseTool": "Apagar",
+					"roofTool": "Colocando Telhado",
+					"blocksTool": "Desenhando Blocos",
+					"paintTool": "Pintando Voxels",
+					"wallTool": "Colcando Parede",
+					"stairsTool": "Colocando Escada",
+					"holeTool": "Fazendo buracos",
+					"splitWallTool": "Paredes divisórias",
+					"roomTool": "Colocando Sala",
+					"pointerTool": "Ponteiro"
 				},
-				"place_build_banner": "Place the banner at a hearthling-accessible location next to your building.",
+				"place_build_banner": "Coloque o banner em um local acessível ao lado de seu prédio.",
 				"new_building_confirm": {
-					"title": "Create New Building",
-					"message": "Do you want to start a new building project?",
+					"title": "Criar novo edifício",
+					"message": "Você quer começar um novo projeto de construção?",
 					"yes": "Sim!",
 					"no": "Não"
 				},
 				"destroy_building_confirm": {
-					"title": "Destroy Current Building",
-					"message": "Do you really want to destroy this building?  This operation cannot be undone!",
+					"title": "Destruir o edifício",
+					"message": "Você realmente quer destruir este prédio? Esta operação não pode ser desfeita!",
 					"yes": "Sim!",
 					"no": "Não"
 				},
-				"saving_building": "Saving template...",
-				"success_saving_building": "Template saved.",
-				"error_saving_building": "There was an error saving your template!",
 				"plan_job_status": {
-					"COMPLETE": "Construction is already underway!",
-					"INVALID_BLUEPRINTS": "This building contains invalid structures.  Make sure no structures are red!",
-					"PLANNING_ERROR_GENERIC": "Your Hearthlings cannot figure out how to build your building!  Please send your building template to the Stonehearth team for investigation."
+					"COMPLETE": "A construção já está em andamento!",
+					"INVALID_BLUEPRINTS": "Este edifício contém estruturas inválidas. Certifique-se de que nenhuma estrutura esteja vermelha!",
+					"PLANNING_ERROR_GENERIC": "Seus colonos não conseguem descobrir como construir seu prédio! Por favor, envie seu modelo de construção para a equipe Stonehearth para investigação."
 				},
 				"building_status": {
-					"build_button": "BUILD",
-					"cost_prefix": "Cost:"
+					"build_button": "Construção",
+					"cost_prefix": "Custo:"
 				},
 				"material_list": {
 					"wall": "Parede",
 					"column": "Coluna",
-					"floor": "Chão",
-					"roof": "Cobertura",
+					"floor": "Piso",
+					"roof": "Telhado",
 					"stairs": "Escadas"
 				}
 			},
@@ -69,32 +66,32 @@
 				"terrain_xray_vision_icon_name": "Raio-X",
 				"terrain_xray_vision": "Visão de Terreno Raio-X",
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
-				"terrain_xray_vision_flat": "plano",
-				"terrain_xray_vision_full": "completo",
-				"appeal_vision_icon_name": "appeal",
-				"appeal_vision": "Appeal Vision",
-				"appeal_vision_description": "See how appealing hearthlings find the world."
+				"terrain_xray_vision_flat": "Plano",
+				"terrain_xray_vision_full": "Completo",
+				"appeal_vision_icon_name": "Beleza",
+				"appeal_vision": "Beleza Visual",
+				"appeal_vision_description": "Veja como colonos acham atraente o mundo."
 			},
 			"trade_menu": {
-				"title": "Trade with [str(town_name)]",
-				"you": "[str(town_name)] (You!)",
-				"offering": "You are offering: ",
-				"requesting": "You are requesting:",
-				"give_1": "Give 1",
-				"give_10": "Give 10",
-				"request_1": "Request 1",
-				"request_10": "Request 10",
-				"remove_1": "Remove 1",
-				"remove_10": "Remove 10",
-				"cancel": "Cancel Trade",
-				"send": "Send Trade Request"
+				"title": "Negociando com [str(town_name)]",
+				"you": "[str(town_name)] (Voce!)",
+				"offering": "Oque vc tem?: ",
+				"requesting": "Oque vc quer?:",
+				"give_1": "Tome 1",
+				"give_10": "Tome 10",
+				"request_1": "Quero 1",
+				"request_10": "Quero 10",
+				"remove_1": "Tire 1",
+				"remove_10": "Tire 10",
+				"cancel": "Cancelar negociacao",
+				"send": "Enviar pedido de negociacao"
 			},
 			"promotion_tree": {
 				"title": "Escolha um Trabalho",
 				"promotion_title": "Promover a [str(job_name)]",
 				"text_1": "Em honra de esforços firmes e de resiliência,",
-				"text_current": "Este é o trabalho atual do hearthling.",
-				"choose": "escolha um hearthling...",
+				"text_current": "Este é o trabalho atual do colono.",
+				"choose": "escolha um colono...",
 				"text_2": "nesse dia, [str(date)]",
 				"approve": "APROVAR",
 				"approved": "APROVADO",
@@ -102,56 +99,56 @@
 				"stamper_top_text": "CLIQUE PARA",
 				"stamper_bottom_text": "APROVAR",
 				"requires": "Requer",
-				"parent_level": "A level [str(parent_level)] [str(parent_name)]"
+				"parent_level": "O nivel[str(parent_level)] [str(parent_name)]"
 			},
 			"people_picker": {
-				"title": "Escolha um Hearthling",
+				"title": "Escolha um colono",
 				"select_person": "Selecionar",
 				"ownership_current_owner_tooltip": "Dono Atual",
 				"ownership_owns_another_tooltip": "Já possui um objeto similar"
 			},
 			"multiplayer_menu": {
-				"display_name": "Multiplayer Menu",
-				"description": "View and manage other connected players",
-				"host": "host",
-				"client": "client",
-				"online": "online",
-				"offline": "offline",
-				"connecting": "connecting",
-				"embarking": "embarking",
-				"player": "Player",
-				"players": "Players",
-				"disconnect_player": "Disconnect Player",
-				"erase_player": "Destroy Belongings",
-				"remote_connections_disabled": "Multiplayer not enabled",
-				"remote_connections_disabled_description": "Enable multiplayer in settings to allow other players to join your game",
+				"display_name": "Menu do Multijogador",
+				"description": "Ver e gerenciar outros jogadores conectados",
+				"host": "Hospedeiro",
+				"client": "Cliente",
+				"online": "Online",
+				"offline": "Offline",
+				"connecting": "Conectando",
+				"embarking": "Embarcar",
+				"player": "Jogador",
+				"players": "Jogadores",
+				"disconnect_player": "Jogador Desconectado",
+				"erase_player": "Destrua Pertences",
+				"remote_connections_disabled": "Multijogador não habilitado",
+				"remote_connections_disabled_description": "Ativar multijogador nas configurações para permitir que outros jogadores participem do seu jogo",
 				"settings": "Configurações",
-				"trade": "Trade",
-				"transfer_player": "Claim Belongings",
+				"trade": "Negociar",
+				"transfer_player": "Reivindicar Pertences",
 				"confirm": {
-					"cancel": "Cancel",
+					"cancel": "Cancelar",
 					"continue": "Continue",
 					"disconnect_player": {
-						"title": "Disconnect this player",
-						"message": "Are you sure you want to disconnect this player?"
+						"title": "Desconectar este jogador",
+						"message": "Tem certeza de que deseja desconectar este player?"
 					},
 					"erase_player": {
-						"title": "Destroy player belongings",
-						"message": "Are you sure you want destroy all of this player's belongings? This will also remove this player's town from the game. You cannot undo this action."
+						"title": "Destrua os pertences do jogador",
+						"message": "Tem certeza que quer destruir todos os pertences deste jogador? Isso também removerá a cidade desse jogador do jogo. Você não pode desfazer essa ação."
 					},
 					"transfer_player": {
-						"title": "Claim player belongings",
-						"message": "Are you sure you want take all of this player's belongings? This will also remove this player's town from the game. You cannot undo this action."
+						"title": "Reivindicar pertences do jogador",
+						"message": "Tem certeza de que quer levar todos os pertences deste jogador? Isso também removerá a cidade desse jogador do jogo. Você não pode desfazer essa ação."
 					}
 				}
 			},
 			"build_workshop": {
 				"title": "Construir Mesa de Trabalho",
 				"requirements": "Requisitos",
-				"create_stockpile": "Crafter's Stockpile",
+				"create_stockpile": "Estoque de Artesão",
 				"create_stockpile_description": "O artesão vai colocar seus itens em um armazém.<p>Você provavelmente quer colocar o armazém perto da mesa de trabalho, mas é sua decisão.",
-				"page1_subtitle2": "Click on the ground to place the workshop",
-				"page2_subtitle2": "Click and drag on the ground to place the stockpile"
+				"page1_subtitle2": "Clique no chão para colocar a oficina",
+				"page2_subtitle2": "Clique e arraste no chão para colocar o estoque"
 			},
 			"citizen_character_sheet": {
 				"title": "Informações do Personagem",
@@ -161,8 +158,8 @@
 				"max_level": "Nivel Maximo!!!",
 				"no_levels": "Sem subir de nível",
 				"level_text": "Nivel ",
-				"level_abbreviation": "Lvl",
-				"locked_status": "<br><br>(Bloqueado)",
+				"level_abbreviation": "Nvl",
+				"locked_status": "Bloqueado",
 				"apprentice": "Aprendiz",
 				"journeyman": "Journeyman",
 				"master": "Mestre",
@@ -187,20 +184,20 @@
 				"traits": "Traços",
 				"above": "Acima",
 				"below": "Abaixo",
-				"currently": "Atualmente:",
-				"no_unhappy_thoughts": "No unhappy thoughts so far!",
-				"no_happy_thoughts": "No happy thoughts yet!",
+				"currently": "Currently:",
+				"no_unhappy_thoughts": "Nenhum pensamento infeliz até agora!",
+				"no_happy_thoughts": "Ainda não há pensamentos felizes!",
 				"appeal_headings": {
 					"like": "Gosta",
-					"like_tooltip": "A space is viewed as more beautiful for every liked item present, up to three.",
+					"like_tooltip": "Um espaço é visto como mais bonito para cada item desejado, até três.",
 					"love": "Ama",
-					"love_tooltip": "Seeing one of these loved items will drastically improve [str(self.stonehearth:unit_info.custom_name)]'s opinion of an area.",
+					"love_tooltip": "Vendo um desses itens amados irá melhorar drasticamente [str(self.stonehearth:unit_info.custom_name)]'s opinião de uma área.",
 					"dislike": "Detesta",
-					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] dislikes these items and will always find them unappealing, regardless of quality.",
+					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] não gosta desses itens e sempre os achará desagradáveis, independentemente da qualidade.",
 					"current_and_target_bar": "Opinião geral",
-					"current_and_target_bar_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s opinion of their surroundings and recently visited areas.",
-					"current_arrow_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s overall opinion of the town's appeal. This affects their mood.",
-					"target_arrow_tooltip": "How [str(self.stonehearth:unit_info.custom_name)] views their immediate surroundings.  This affects their overall opinion of the town with time.",
+					"current_and_target_bar_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s A opinião de seu entorno e áreas visitadas recentemente.",
+					"current_arrow_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s opinião geral do apelo da cidade. Isso afeta o humor deles.",
+					"target_arrow_tooltip": "Como [str(self.stonehearth:unit_info.custom_name)] vê o seu entorno imediato.  Isso afeta sua opinião geral da cidade com o tempo.",
 					"item_preferences": "Gostos de [str(self.stonehearth:unit_info.custom_name)]"
 				}
 			},
@@ -218,7 +215,7 @@
 				"camera": {
 					"camera_pan_title": "Para mover a câmera",
 					"camera_pan_1": "Segure a barra de espaço e mova o cursor",
-					"camera_pan_2": "Ou use as teclas WASD",
+					"camera_pan_2": "Ou use as teclas W A S D",
 					"camera_pan_3": "Ou pressione a roda do mouse e mova o cursor",
 					"camera_orbit_title": "Para girar a câmera",
 					"camera_orbit_1": "Clique com o botão direito e mova o cursor para girar a câmera",
@@ -255,7 +252,7 @@
 				"save_tooltip_description": "Nome da Pasta: [str(folder_name)]"
 			},
 			"common": {
-				"ok": "OK",
+				"ok": "Ok",
 				"cancel": "Cancelar",
 				"yes": "Sim",
 				"no": "Não",
@@ -268,43 +265,43 @@
 				"input_text_tooltip": "Click para Editar",
 				"days": "d",
 				"hours": "h",
-				"the": "the",
+				"the": "o",
 				"empty_string": ""
 			},
 			"multiplayer_settings": {
-				"create_new_multiplayer_game": "Create new multiplayer game",
-				"open_game_to_multiplayer": "Open game to multiplayer",
-				"allow_remote_connections": "Enable Multiplayer",
-				"allow_remote_connections_description": "Allow other players to join your game",
-				"start": "Start",
-				"settings": "Multiplayer Settings",
-				"max_players": "Max Players",
+				"create_new_multiplayer_game": "Criar novo jogo multijogador",
+				"open_game_to_multiplayer": "Abra o jogo para o multijogador",
+				"allow_remote_connections": "Ativar multijogador",
+				"allow_remote_connections_description": "Permitir que outros jogadores participem do seu jogo",
+				"start": "Iniciar",
+				"settings": "Configurações multiplayer",
+				"max_players": "Máximo de jogadores",
 				"max_players_description": "Defina o número máximo de jogadores que podem participar"
 			},
 			"multiplayer_status_text": {
 				"status": {
-					"connected": "connected",
-					"connecting": "is connecting",
-					"disconnected": "disconnected",
-					"removed": "removed from game",
-					"placed_camp": "placed their camp",
-					"changed_town_name": "set their town name to"
+					"connected": "conectado",
+					"connecting": "está conectando",
+					"disconnected": "desconectado",
+					"removed": "removido do jogo",
+					"placed_camp": "colocou seu acampamento",
+					"changed_town_name": "definir o nome da cidade para"
 				}
 			},
 			"disconnected": {
-				"disconnected": "You were disconnected",
+				"disconnected": "Você estava desconectado",
 				"reasons": {
-					"error": "Something has gone wrong. You've lost connection to the server.",
-					"kick": "You were disconnected by the host.",
-					"shutdown": "The server was shutdown.",
-					"closed": "Server not accepting connections",
-					"full": "Server is full"
+					"error": "Algo deu errado. Você perdeu a conexão com o servidor.",
+					"kick": "Você foi desconectado pelo host.",
+					"shutdown": "O servidor foi encerrado.",
+					"closed": "Servidor não aceitando conexões",
+					"full": "Servidor está cheio"
 				}
 			},
 			"steam": {
 				"workshop_agreement": {
-					"notice": "By submitting this item, you agree to the workshop",
-					"terms_of_service": "terms of service"
+					"notice": "Ao enviar este item, você concorda com a workshop",
+					"terms_of_service": "termos de serviço"
 				}
 			},
 			"party": {
@@ -313,65 +310,65 @@
 				"edit_party": "Editar",
 				"add_party_member": "Adicionar Membro",
 				"remove_members": "Remover Todos os Membros",
-				"add_party_member_title": "Manage Roster",
+				"add_party_member_title": "Gerenciar lista",
 				"done_adding_members": "Feito",
 				"add_party_member_button": "Adicionar",
 				"remove_party_member_button": "Remover",
-				"not_in_party": "Not in a party",
-				"party_help": "Party members will travel together and can be directed on the battlefield.",
-				"party_editor_help": "Use this screen to add and remove hearthlings to the party.",
-				"attack_banner_button": "Attack Order",
-				"attack_banner_button_help": "Tell the party to assault a location",
-				"defend_banner_button": "Rally & Defend Order",
-				"defend_banner_button_help": "Tell the party to rally to a location when Town Defense Mode is activated"
+				"not_in_party": "Não em uma esquadra",
+				"party_help": "Os membros do esquadra viajarão juntos e poderão ser direcionados para o campo de batalha.",
+				"party_editor_help": "Use esta tela para adicionar e remover colonos à esquadrão.",
+				"attack_banner_button": "Ataque e uma Ordem",
+				"attack_banner_button_help": "Diga à esquadra para assaltar um local",
+				"defend_banner_button": "Serio & Defenda e uma Ordem",
+				"defend_banner_button_help": "Diga à parte para se reunir para um local quando o modo de defesa da cidade estiver ativado"
 			},
 			"unit_frame": {
-				"show_character_sheet": "Show character sheet",
-				"focus_camera": "Focus camera on this unit",
+				"show_character_sheet": "Mostrar status do personagem",
+				"focus_camera": "Focalize a câmera nesta unidade",
 				"attack_target": {
-					"display_name": "Attack Move",
-					"description": "Attack a specific target or location."
+					"display_name": "Mover ataque",
+					"description": "Atacar um alvo ou local específico."
 				},
-				"crafted_by": "Crafted by [str(author_name)]",
-				"crafted_in": "Crafted in [str(author_name)]",
+				"crafted_by": "Criada por [str(author_name)]",
+				"crafted_in": "Trabalhada em [str(author_name)]",
 				"defend_location": {
-					"display_name": "Defend Location",
-					"description": "Defend a location from enemies."
+					"display_name": "Defenda a localização",
+					"description": "Defenda uma localização dos inimigos."
 				},
 				"move_unit": {
-					"display_name": "Move to Location",
-					"description": "Move to a location without attacking."
+					"display_name": "Mover para o local",
+					"description": "Mover para um local sem atacar."
 				},
 				"manage_party": {
-					"display_name": "Manage Party",
-					"description": "Add and remove combat units from the party."
+					"display_name": "Gerenciar esquadrão",
+					"description": "Adicione e remova unidades de combate da esquadrão."
 				},
 				"cancel_order": {
-					"display_name": "Cancel Combat Order",
-					"description": "Cancels active combat orders."
+					"display_name": "Cancelar ordem de combate",
+					"description": "Cancela ordens de combate ativas."
 				},
-				"level": "Lv: ",
-				"Lvl": "Lvl",
+				"level": "Nv: ",
+				"Lvl": "Nivel",
 				"class_lv_title": "Requisitos de Classe e Nível",
 				"no_requirements": "Nenhum!",
-				"equipment_description": "Equippable by: [str(class_list)]",
-				"level_description": "of Level [str(level_req)]",
-				"or": " or ",
-				"num_uses": "Uses",
-				"placed": "placed",
+				"equipment_description": "Equipado por: [str(class_list)]",
+				"level_description": "nivel do [str(level_req)]",
+				"or": " ou ",
+				"num_uses": "Usos",
+				"placed": "colocado",
 				"placement_tags": {
-					"turret": "Turrets",
+					"turret": "Torres",
 					"trap": "Armadilhas"
 				},
 				"quality": {
-					"quality-2": "Fine Quality",
-					"quality-3": "Excellent Quality",
-					"quality-4": "Masterwork Quality!"
+					"quality-2": "Qualidade boa",
+					"quality-3": "Qualidade Excelente",
+					"quality-4": "Qualidade mestre!"
 				}
 			},
 			"citizens": {
-				"title": "Cidadãos",
-				"work_orders_title": "Cidadãos",
+				"title": "Colonos",
+				"work_orders_title": "Colonos",
 				"worker_details": "Detalhes",
 				"workers_list_headers": {
 					"name": "Nome",
@@ -388,12 +385,12 @@
 				"button_resume": "resumir",
 				"tab": {
 					"tasks": "Afazeres",
-					"groups": "Groups"
+					"groups": "Grupos"
 				},
 				"enrollment": {
-					"enrolled": "Enrolled",
-					"not_enrolled": "Not enrolled",
-					"cannot_enroll": "Cannot enroll"
+					"enrolled": "Inscrito",
+					"not_enrolled": "Não inscrito",
+					"cannot_enroll": "Não é possível se inscrever"
 				}
 			},
 			"create_camp": {
@@ -405,18 +402,18 @@
 			},
 			"calendar": {
 				"months": {
-					"1": "Bittermun",
-					"2": "Deepmun",
-					"3": "Dewmun",
-					"4": "Rainmun",
-					"5": "Growmun",
-					"6": "Goldmun",
-					"7": "Feastmun",
-					"8": "Warmun",
-					"9": "Newmun",
-					"10": "Azuremun",
-					"11": "Hearthmun",
-					"12": "Northmun"
+					"1": "Jan",
+					"2": "Fev",
+					"3": "Mar",
+					"4": "Abr",
+					"5": "Mai",
+					"6": "Jun",
+					"7": "Jul",
+					"8": "Ago",
+					"9": "Set",
+					"10": "Out",
+					"11": "Nov",
+					"12": "Dez"
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
 				"date_format_long": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
@@ -432,7 +429,7 @@
 				"about": "Sobre",
 				"quit_to_menu": "Menu Principal",
 				"exit_game": "Sair do Jogo",
-				"post_bug": "Postar um Bug",
+				"post_bug": "Reportar Bug",
 				"exit_confirm_dialog": {
 					"title": "Sair do Jogo",
 					"message": "Deseja realmente Sair do jogo? Todo progresso não salvo será perdido.",
@@ -448,10 +445,10 @@
 			},
 			"entities": {
 				"custom_name": "[str(self.stonehearth:unit_info.custom_name)]",
-				"unknown_name": "Unknown",
+				"unknown_name": "Desconhecido",
 				"item_categories": {
 					"food": "Comida",
-					"cooking_ingredient": "Cooking Ingredients",
+					"cooking_ingredient": "Ingredientes de cozinha",
 					"resources": "Recursos",
 					"furniture": "Mobília",
 					"armor": "Armadura",
@@ -463,24 +460,24 @@
 					"weapons": "Armas",
 					"tools": "Ferramentas",
 					"wealth": "Riqueza",
-					"refined": "Refined",
+					"refined": "Refinado",
 					"uncategorized": "Sem categoria",
-					"workshops": "Workshops",
+					"workshops": "Lojas de trabalho",
 					"consumable": "consumíveis",
-					"storage": "Storage",
-					"defense": "Defense",
-					"trophy": "Troféus",
+					"storage": "Armazenamento",
+					"defense": "Defesa",
+					"trophy": "Trofeis",
 					"seed": "Sementes",
-					"pets": "Pets",
+					"pets": "Animal de Estimação",
 					"none": "Nenhum"
 				},
 				"tooltip_combat_base_damage": "Atk:",
 				"tooltip_combat_base_damage_reduction": "Def:",
 				"tooltip_num_undeployed": "Desocupado: [str(num_undeployed)]",
-				"tooltip_deprecated": "Legacy Item: this item is no longer obtainable in the game.",
+				"tooltip_deprecated": "Item Legado: este item não pode mais ser obtido no jogo.",
 				"death_notification": "[name(i18n_data.entity)] esta morto.",
-				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!",
-				"starving_notification": "[name(i18n_data.citizen)] is starving!",
+				"imminent_death_notification": "[name(i18n_data.citizen)] está gravemente fraco em saúde!",
+				"starving_notification": "[name(i18n_data.citizen)] está morrendo de fome!",
 				"health_status_normal": "Normal",
 				"health": "HP",
 				"gender": {
@@ -491,250 +488,250 @@
 			"menu": {
 				"town_menu": {
 					"display_name": "Informações Sobre a Cidade",
-					"description": "General information about your town, how your hearthlings are feeling, and the wealth you've accumulated!"
+					"description": "Informações gerais sobre a sua cidade, como estão se sentindo os seus colonos e a riqueza que você acumulou!"
 				},
 				"citizen_manager": {
-					"display_name": "Cidadãos",
-					"description": "Manage your hearthlings and promote them to new jobs."
+					"display_name": "colonos",
+					"description": "Gerencie seus colonos e promova-os a novos empregos."
 				},
 				"harvest_menu": {
 					"display_name": "Coletar",
-					"description": "Harvest resources or mine into the earth.",
+					"description": "Colha recursos ou minas na terra.",
 					"items": {
 						"harvest": {
 							"display_name": "Obter",
-							"description": "Gather trees, plants, and stones from the surface of the land",
-							"tip_title": "Click and drag to harvest resources",
-							"tip_description": "Right click to exit this mode"
+							"description": "Reúna árvores, plantas e pedras da superfície da terra",
+							"tip_title": "Clique e arraste para cavar para baixo",
+							"tip_description": "Clique com o botão direito para sair this mode"
 						},
 						"mining_ui": {
 							"display_name": "Minerar Tunel",
 							"description": "Minerar Tuneis e Cavernas",
-							"tip_title": "Click and drag to dig downward",
-							"tip_description": "Right click to exit"
+							"tip_title": "Clique e arraste para cavar para baixo",
+							"tip_description": "Clique com o botão direito para sair"
 						},
 						"mine_block": {
 							"display_name": "Minerar Bloco",
 							"description": "Minerar Bloco individual",
-							"tip_title": "Click and drag to dig downward",
-							"tip_description": "Right click to exit"
+							"tip_title": "Clique e arraste para cavar para baixo",
+							"tip_description": "Clique com o botão direito para sair"
 						},
 						"loot_item": {
-							"display_name": "Loot",
-							"description": "Take items from enemies",
-							"tip_title": "Click and drag to loot items from the world",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Saque",
+							"description": "Pegue itens de inimigos",
+							"tip_title": "Clique e arraste para roubar itens do mundo",
+							"tip_description": "Clique com o botão direito para sair"
 						},
 						"cancel_task": {
-							"display_name": "Cancel Task",
-							"description": "Cancel tasks on this object",
-							"tip_title": "Click and drag to remove various commands",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Cancelar tarefa",
+							"description": "Cancelar tarefas neste objeto",
+							"tip_title": "Clique e arraste para remover vários comandos",
+							"tip_description": "Clique com o botão direito para sair"
 						},
 						"clear_item": {
-							"display_name": "Destroy",
-							"description": "Destroy items in the world",
-							"tip_title": "Click and drag to permanently destroy items in the world",
-							"tip_description": "Right click to exit this mode",
-							"confirm_title": "Are you really sure you want to destroy these items?",
-							"confirm_message": "Usable items in the area will be permanently destroyed",
+							"display_name": "Destruir",
+							"description": "Destrua itens no mundo",
+							"tip_title": "Clique e arraste para destruir permanentemente itens no mundo",
+							"tip_description": "Clique com o botão direito para sair deste modo",
+							"confirm_title": "Você tem certeza de que quer destruir esses itens?",
+							"confirm_message": "Itens utilizáveis ​​na área serão permanentemente destruídos",
 							"confirm_clear": "Sim, destruir!",
-							"confirm_clear_no": "No! I need that stuff!"
+							"confirm_clear_no": "Não! Eu preciso disso!"
 						}
 					}
 				},
 				"zone_menu": {
 					"display_name": "Designar Zonas",
-					"description": "Designate areas of the ground for storage, farming, etc.",
+					"description": "Designar áreas do solo para armazenamento, agricultura, etc.",
 					"items": {
 						"create_stockpile": {
-							"display_name": "Stockpile",
-							"description": "Place a stockpile for storing resources.",
-							"tip_title": "Click and drag to create your stockpile",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Estoque",
+							"description": "Coloque um estoque para armazenar recursos.",
+							"tip_title": "Clique e arraste para criar seu estoque",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"create_farm": {
 							"display_name": "Fazenda",
 							"description": "Coloque uma Fazenda no Terreno.",
 							"required_job_text": "Precisa de um Fazendeiro",
-							"tip_title": "Click and drag to designate a new field",
-							"tip_description": "Farmers will break ground and plant crops here"
+							"tip_title": "Clique e arraste para designar um novo campo",
+							"tip_description": "Os agricultores vão abrir caminho e plantar aqui"
 						},
 						"create_trapping_grounds": {
 							"display_name": "Area de Caça",
 							"description": "Coloque Armadilhar para capturar pequenos bichos.",
 							"required_job_text": "Precisa de um Caçador",
-							"tip_title": "Click and drag to create trapping grounds",
-							"tip_description": "Trappers catch critters for food and resources in this zone"
+							"tip_title": "Clique e arraste para criar áreas de armadilhagem",
+							"tip_description": "Caçadores pegar bichos para comida e recursos nesta zona"
 						},
 						"create_pasture": {
 							"display_name": "Pasto de Animais",
 							"description": "O Pastor vai trazer Animais para Pastar aqui.",
 							"required_job_text": "Precisa de um Pastor",
-							"tip_title": "Click and drag to create an animal pasture",
-							"tip_description": "Shepherds bring animals to this region and tend to their needs here."
+							"tip_title": "Clique e arraste para criar um pasto animal",
+							"tip_description": "Os pastores trazem animais para esta região e atendem às suas necessidades aqui."
 						}
 					}
 				},
 				"build_menu": {
 					"display_name": "Construir & Projetar",
-					"description": "Build structures like houses and city walls.",
+					"description": "Construa estruturas como casas e muros da cidade.",
 					"items": {
 						"building_templates": {
 							"display_name": "Colocar Construção",
-							"description": "Choose to construct a building from a pre-designed template"
+							"description": "Opte por construir um edifício a partir de um modelo pré-concebido"
 						},
 						"custom_building": {
 							"display_name": "Projetar Construção",
-							"description": "Design your own one-of-a-kind building"
+							"description": "Projete seu próprio prédio único"
 						},
 						"broken_building": {
-							"display_name": "Old 'n Busted",
-							"description": "Tempt fate with the old building editor!"
+							"display_name": "Velho e arrebentado",
+							"description": "Seduza o destino com o antigo editor de edifícios!"
 						},
 						"place_item": {
 							"display_name": "Colocar Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"description": "Coloque itens como móveis e decoração",
+							"tip_title": "Clique para colocar este item",
+							"tip_description": "Rodar com [str(left_binding)] e [str(right_binding)] teclas"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Não é possível colocar este item",
+							"tip_description": "Alcançado [str(tag)] limite de posicionamento do item de [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
 							"display_name": "Construir escada",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"description": "Construa uma escada para acessar lugares difíceis de alcançar",
+							"tip_title": "Clique em uma parede para construir escadas",
+							"tip_description": "Clique para colocar manualmente uma escada para acessar áreas difíceis de alcançar.Clique com o botão direito para sair"
 						}
 					}
 				},
 				"place_menu": {
-					"display_name": "Place",
-					"description": "Place objects like furniture and ladders.",
+					"display_name": "Colocar",
+					"description": "Coloque objetos como móveis e escadas.",
 					"items": {
 						"place_item": {
-							"display_name": "Place Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"display_name": "Colocando Itens",
+							"description": "Coloque itens como móveis e decoração",
+							"tip_title": "Clique para colocar este item",
+							"tip_description": "Rodar com [str(left_binding)] e [str(right_binding)] teclas"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Não é possível colocar este item",
+							"tip_description": "Alcançado [str(tag)] limite de posicionamento do item de [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Construct Ladder",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"display_name": "Construir escada",
+							"description": "Construa uma escada para acessar lugares difíceis de alcançar",
+							"tip_title": "Clique em uma parede para construir escadas",
+							"tip_description": "Clique para colocar manualmente uma escada para acessar áreas difíceis de alcançar.Clique com o botão direito para sair"
 						}
 					}
 				},
 				"fight_menu": {
 					"display_name": "Lutar & Defender",
-					"description": "Manage your combat forces",
+					"description": "Gerencie suas forças de combate",
 					"items": {
 						"party_manager": {
-							"display_name": "Parties",
-							"description": "Organize your troops into groups"
+							"display_name": "Esquadrões",
+							"description": "Organize suas tropas em grupos"
 						},
 						"town_alert": {
-							"display_name": "Town Alert Mode!",
-							"description": "Rally your hearthlings to prepare for intruders!",
-							"activated_title": "Town Alert Mode Activated!",
-							"activated_text": "Your hearthlings are vigilantly watching for intruders. Non-combat hearthlings will run to safety points."
+							"display_name": "Modo de Alerta da Cidade!",
+							"description": "Reúna seus colonos para se preparar para intrusos!",
+							"activated_title": "Modo de alerta da cidade ativado!",
+							"activated_text": "Seus colonos estão atentos aos intrusos. colonos sem combate irão correr para pontos de segurança."
 						},
 						"party_1": {
-							"display_name": "Combat Party 1",
-							"description": "Direct hearthlings with combat jobs into battle! Promoted combat units are automatically added here.",
-							"tip_title": "The party is selected in the unit frame.",
-							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+							"display_name": "Esqaudrão de Combate 1",
+							"description": "colonos diretos com trabalhos de combate na batalha! Unidades de combate promovidas são adicionadas automaticamente aqui.",
+							"tip_title": "A festa é selecionada no quadro da unidade.",
+							"tip_description": "Use os comandos no quadro da unidade para direcionar as pessoas na festa."
 						},
 						"party_2": {
-							"display_name": "Combat Party",
-							"description": "Direct hearthlings with combat jobs into battle! Use the unit frame controls to manage the party.",
-							"tip_title": "The party is selected in the unit frame.",
-							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+							"display_name": "Partido de combate",
+							"description": "colonos diretos com trabalhos de combate na batalha! Use os controles de quadro da unidade para gerenciar a festa.",
+							"tip_title": "A festa é selecionada no quadro da unidade.",
+							"tip_description": "Use os comandos no quadro da unidade para direcionar as pessoas na festa."
 						},
 						"party": {
-							"required_job_text": "Requires a combat job"
+							"required_job_text": "Requer um emprego de combate"
 						}
 					}
 				},
 				"crafter_menu": {
-					"display_name": "Crafters",
-					"description": "Build and manage crafting workshops",
+					"display_name": "Criação",
+					"description": "Construir e gerenciar workshops de artesanato",
 					"items": {
 						"carpenter": {
 							"display_name": "Menu de Criação (Carpinteiro)",
-							"description": "Build wooden furniture and decor.",
+							"description": "Construa móveis de madeira e decoração.",
 							"required_job_text": "Requer um Carpinteiro"
 						},
 						"weaver": {
 							"display_name": "Menu de Criação (Tecelão)",
-							"description": "Create clothes, fabrics, and decor.",
+							"description": "Crie roupas, tecidos e decoração.",
 							"required_job_text": "Requer um Tecelão"
 						},
 						"mason": {
 							"display_name": "Menu de Criação (Pedreiro)",
-							"description": "Chisel stone weapons and furniture.",
+							"description": "Armas e móveis de pedra cinzel.",
 							"required_job_text": "Requer um Pedreiro"
 						},
 						"blacksmith": {
 							"display_name": "Menu de Criação (Ferreiro)",
-							"description": "Smelt ore for weapons and armor.",
+							"description": "Smelt minério de armas e armaduras.",
 							"required_job_text": "Requer um Ferreiro"
 						},
 						"cook": {
 							"display_name": "Menu de Criação (Cozinheiro)",
-							"description": "Makes food taste better and last longer.",
+							"description": "Torna os alimentos mais saborosos e duram mais.",
 							"required_job_text": "Requer um Cozinheiro"
 						},
 						"potter": {
 							"display_name": "Menu de Criação (Oleiro)",
-							"description": "Makes bricks and goods from clay.",
+							"description": "Faz tijolos e mercadorias de barro.",
 							"required_job_text": "Requer um Oleiro"
 						},
 						"herbalist": {
-							"display_name": "Menu de Criação (Herbalist)",
-							"description": "Makes healing items from herbs.",
-							"required_job_text": "Requer Um Herbalist"
+							"display_name": "Menu de Criação (Herbalista)",
+							"description": "Faz itens de cura de ervas.",
+							"required_job_text": "Requer Um Herbalista"
 						},
 						"engineer": {
 							"display_name": "Menu de Criação (Engenheiro)",
-							"description": "Make contraptions and defensive weaponry",
+							"description": "Faça engenhocas e armamento defensivo",
 							"required_job_text": "Requer um Engenheiro"
 						}
 					}
 				},
 				"bulletin_manager": {
-					"display_name": "Bulletins",
-					"description": "Important notifications about the world and your town"
+					"display_name": "Boletins",
+					"description": "Notificações importantes sobre o mundo e sua cidade"
 				},
 				"tasks_manager": {
-					"display_name": "Manage Tasks",
-					"description": "Do task stuff.",
-					"remove_stockpile": "Remove Stockpile",
-					"pause_stockpile": "Pause",
-					"resume_stockpile": "Resume",
+					"display_name": "Gerenciar Tarefas",
+					"description": "Tarefas diarias.",
+					"remove_stockpile": "Remover Estoque",
+					"pause_stockpile": "Pausado",
+					"resume_stockpile": "Continuar",
 					"group": {
-						"stockpiles": "Stockpiles",
-						"building": "Building",
-						"placement": "Placed Items",
-						"maintenance": "General Maintenance",
-						"farming": "Farming",
-						"harvesting": "Harvesting",
-						"mining": "Mining",
-						"trapping": "Trapping"
+						"stockpiles": "Estocando",
+						"building": "Construindo",
+						"placement": "Colocando Itens",
+						"maintenance": "Manutenção geral",
+						"farming": "Colheita",
+						"harvesting": "Colhendo",
+						"mining": "Minerando",
+						"trapping": "Armadilhando"
 					},
-					"percent_full": "[str(percent)] Percent Full",
+					"percent_full": "[str(percent)] Percentual Completo",
 					"active": "Ativo",
 					"paused": "Pausado"
 				},
 				"warnings": {
-					"town_inventory_full": "Town Items Full"
+					"town_inventory_full": "Itens da Cidade Completos"
 				}
 			},
 			"bulletin": {
@@ -751,177 +748,177 @@
 					"shop_gold_label": "Ouro",
 					"shopkeeper_gold_label": "Ouro (Mercador)",
 					"not_enough_gold_tooltip": "Não há ouro suficiente",
-					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
+					"shopkeeper_not_enough_gold_tooltip": "Mercador não tem ouro suficiente"
 				},
 				"trade": {
-					"target_title": "Trade Offer from [str(i18n_data.town_name)]",
-					"source_title": "Trade Offer for [str(i18n_data.town_name)]",
-					"title_without_name": "Trade Offer",
-					"offering": "Offering:",
-					"exchange": "In exchange for:",
-					"request": "Requesting:",
-					"cancelled": "[str(i18n_data.town_name)] Cancelled a Trade",
-					"accepted": "[str(i18n_data.town_name)] Accepted a Trade",
-					"declined": "[str(i18n_data.town_name)] Declined a Trade",
+					"target_title": "Oferta comercial de [str(i18n_data.town_name)]",
+					"source_title": "Oferta comercial para [str(i18n_data.town_name)]",
+					"title_without_name": "Oferta de comércio",
+					"offering": "Oferta:",
+					"exchange": "Em troca de:",
+					"request": "Solicitando:",
+					"cancelled": "[str(i18n_data.town_name)] Negociação cancelada",
+					"accepted": "[str(i18n_data.town_name)] Aceito a Negociação",
+					"declined": "[str(i18n_data.town_name)] Recusou um Negociação",
 					"fail": {
-						"title": "Trade Couldn't Be Completed",
-						"source": "The other town no longer has enough of the offered resources to complete this trade.",
-						"target": "You don't have enough resources to complete this trade."
+						"title": "O comércio não pôde ser concluído",
+						"source": "A outra cidade não tem mais recursos suficientes para concluir esse comércio.",
+						"target": "Você não tem recursos suficientes para concluir esta negociação."
 					}
 				},
 				"city_dialog": {
-					"proclamation": "PROCLAMATION OF"
+					"proclamation": "PROCLAMAÇÃO DE"
 				},
 				"city_tier_dialog": {
-					"build_and_place": "Build & Place",
-					"attain_net_worth": "Attain Net Worth:",
+					"build_and_place": "Construir e Colocar",
+					"attain_net_worth": "Atingir Patrimônio Líquido:",
 					"check_requirements": "Verificar Requisitos",
-					"summon_herald": "Summon Herald!"
+					"summon_herald": "Evocar Arauto!"
 				},
 				"level_up_bulletin": {
 					"title": "[name(i18n_data.entity)] Subiu de Nivel!",
-					"show_char_sheet": "Character Sheet"
+					"show_char_sheet": "Status do personagem"
 				},
 				"promote_bulletin": {
 					"title": "[name(i18n_data.entity)] foi promovido!",
-					"show_char_sheet": "Character Sheet"
+					"show_char_sheet": "Status do personagem"
 				},
 				"delivery_quest": {
-					"complete": "Complete",
-					"abandon": "Abandon",
-					"happiness_requirement_label": "[str(value)] citizens are at least [str(moodName)]",
-					"happiness_requirement_label_all": "All citizens are at least [str(moodName)]",
+					"complete": "Completo",
+					"abandon": "Abandonar",
+					"happiness_requirement_label": "[str(value)] os colonos são pelo menos [str(moodName)]",
+					"happiness_requirement_label_all": "Todos os colonos são pelo menos [str(moodName)]",
 					"happiness_requirement_all": "[str(value)] (all)",
 					"gold_label": {
-						"give": "Gold",
-						"have": "Gold on hand",
-						"spent": "Gold spent via trade",
-						"earned": "Gold earned via trade"
+						"give": "Ouro",
+						"have": "Ouro em mão",
+						"spent": "Ouro gasto via comércio",
+						"earned": "Ouro ganho via comércio"
 					},						
-					"net_worth_label": "Net worth",
-					"placed_item_label": "[str(itemName)] placed",
+					"net_worth_label": "Patrimônio líquido",
+					"placed_item_label": "[str(itemName)] colocou",
 					"quality_label": {
-						"quality_2": "Fine quality items owned",
-						"quality_3": "Excellent quality items owned",
-						"quality_4": "Masterwork quality items owned"
+						"quality_2": "Itens de boa qualidade",
+						"quality_3": "Itens de excelente qualidade possuídos",
+						"quality_4": "Itens de qualidade da obra-prima de propriedade"
 					}
 				},
 				"dispatch_quest": {
-					"abandon": "Abandon",
-					"dispatch": "Dispatch"
+					"abandon": "Abandonar",
+					"dispatch": "Despacho"
 				},
 				"town_upgrade_choice": {
-					"title": "Official Settlement Declaration",
-					"name_header": "Choose a name for your settlement!",
+					"title": "Declaração de assentamento oficial",
+					"name_header": "Escolha um nome para o seu assentamento!",
 					"name_prompt": "Nome:",
-					"banner_prompt": "Choose settlement path:",
-					"complete": "Issue Declaration!"
+					"banner_prompt": "Escolha o caminho de assentamento:",
+					"complete": "Declaração de Emissão!"
 				},
 				"immigration_report": {
 					"title": "Atualização diária",
 					"immigration_report_title": "Relatório de Imigração",
-					"population_label": "[str(town_name)] population",
-					"next_requirements_label": "Next hearthling requirements...",
+					"population_label": "[str(town_name)] População",
+					"next_requirements_label": "Requisitos para ter novo colono...",
 					"tooltips": {
-						"food": "Higher quality food provides higher food scores.",
-						"morale": "Keep your hearthlings safe, well-fed, and comfortable to improve morale.",
-						"net_worth": "Estimated value of your town. Collect items, accumulate gold and build buildings to increase your net worth."
+						"food": "Alimentos de alta qualidade fornecem maiores pontuações de alimentos.",
+						"morale": "Mantenha seus colonos seguros, bem alimentados e confortáveis ​​para melhorar o moral.",
+						"net_worth": "Valor estimado da sua cidade. Colete itens, acumule ouro e construa prédios para aumentar seu patrimônio líquido."
 					}
 				},
 				"collection_quest": {
-					"pay": "Here you go!",
-					"cancel": "I've changed my mind"
+					"pay": "Aqui está!",
+					"cancel": "Eu mudei de ideia"
 				},
 				"inventory_full": {
-					"title": "Town Items Full",
-					"message": "You've reached the maximum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
-				}
+					"title": "Itens da cidade completos",
+					"message": "Você atingiu o número máximo de itens! Cada travessia aumenta o número total de itens que sua cidade pode ter. colonos não coletará recursos se sua cidade possuir muitos itens. Contêineres de armazenamento contam como itens e NÃO aumentam o limite de itens. Venda os itens extras ou destrua-os usando a ferramenta de itens claros. "
+					}
 			},
 			"build_mode2": {
 				"tooltips": {
-					"pointer_tool": "Pointer",
-					"room_tool": "Rooms",
-					"wall_tool": "Walls",
-					"split_wall_tool": "Split Walls",
-					"roof_tool": "Roofs",
-					"blocks_tool": "Blocks",
-					"paint_tool": "Paint",
-					"hole_tool": "Holes",
-					"stairs_tool": "Stairs",
-					"road_tool": "Roads",
-					"fence_tool": "Fences",
-					"terrain_tool": "Terrain",
-					"windows": "Windows",
-					"furniture": "Furniture",
-					"doors": "Doors",
-					"decorations": "Decorations",
-					"erase_tool": "Erase",
-					"undo_tool": "Undo",
-					"redo_tool": "Redo",
-					"new_building": "New Building",
-					"save_building": "Save Building",
-					"template_list": "Templates",
-					"destroy": "Destroy Building",
-					"wood_resource": "Wood",
-					"clay_resource": "Clay",
-					"stone_resource": "Stone"
+					"pointer_tool": "Ponteiro",
+					"room_tool": "Salas",
+					"wall_tool": "Paredes",
+					"split_wall_tool": "Paredes Separadas",
+					"roof_tool": "Telhados",
+					"blocks_tool": "Blocos",
+					"paint_tool": "Pinturas",
+					"hole_tool": "Buracos",
+					"stairs_tool": "Escadas",
+					"road_tool": "Estradas",
+					"fence_tool": "Cercas",
+					"terrain_tool": "Terreno",
+					"windows": "Janelas",
+					"furniture": "Mobília",
+					"doors": "Portas",
+					"decorations": "Decorações",
+					"erase_tool": "Apagar",
+					"undo_tool": "Desfazer",
+					"redo_tool": "Refazer",
+					"new_building": "Nova Construção",
+					"save_building": "Salvar construção",
+					"template_list": "Modelos",
+					"destroy": "Destrua o construção",
+					"wood_resource": "Madeira",
+					"clay_resource": "Argila",
+					"stone_resource": "Pedra"
 				}
 			},
 			"build_mode": {
 				"tooltips": {
-					"building_tools": "Building Tools",
-					"erase": "Erase Tool",
-					"voxel_tools": "Voxel Tools",
+					"building_tools": "Ferramentas de construção",
+					"erase": "Apagar Ferramenta",
+					"voxel_tools": "Voxel Ferramentas",
 					"voxel_add": "Add Voxel",
-					"voxel_paint": "Paint Voxel",
+					"voxel_paint": "Pintura Voxel",
 					"voxel_remove": "Remove Voxel",
-					"selection": "Selection",
-					"delete": "Excluir",
+					"selection": "Seleção",
+					"delete": "Apagar",
 					"undo": "Desfazer (Ctrl + Z)",
-					"draw_slab_tool": "Slabs",
-					"draw_floor_tool": "Foundations",
-					"grow_floor_tool": "Floors",
-					"grow_roof_tool": "Roofs",
+					"draw_slab_tool": "Blocos",
+					"draw_floor_tool": "Fundações",
+					"grow_floor_tool": "Pisos",
+					"grow_roof_tool": "Telhados",
 					"draw_door_tool": "Portas",
 					"draw_window_tool": "Janelas",
 					"grow_wall_tool": "Paredes",
-					"draw_wall_tool": "Free Standing Walls",
-					"draw_road_tool": "Roads",
-					"place_furniture_tool": "Furniture",
-					"place_decoration_tool": "Decorations",
-					"erase_tool": "Erase",
-					"draw_stairs_tool": "Stairs"
+					"draw_wall_tool": "Paredes de pé livre",
+					"draw_road_tool": "Estradas",
+					"place_furniture_tool": "Mobília",
+					"place_decoration_tool": "Decorações",
+					"erase_tool": "Apagar",
+					"draw_stairs_tool": "Escadas"
 				},
 				"overhead_tips": {
-					"wall_segment_tip_title": "Click to place freestanding wall segments",
-					"wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
+					"wall_segment_tip_title": "Clique para colocar os segmentos da parede independente",
+					"wall_segment_tip_description": "Mantenha pressionada a tecla SHIFT enquanto clica para desenhar paredes conectadas",
 					"build_title_building_designer": "Projetar Construção",
-					"build_floor_tip_title": "Click and drag to place floor tiles",
-					"build_floor_tip_description": "Right click to exit",
-					"build_slab_tip_title": "Click and drag to build a slab",
-					"build_slab_tip_description": "Right click to exit",
-					"erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
-					"erase_structure_tip_description": "Right click to exit",
-					"roof_tip_title": "Click a walled floorplan to place the roof",
-					"roof_tip_description": "Right click to exit",
-					"raise_walls_tip_title": "Click a floorplan to add walls",
-					"raise_walls_tip_description": "Right click to exit",
-					"doodad_tip_title": "Click a wall to place the door or window",
-					"doodad_tip_description": "Right click to exit",
-					"draw_template_title": "Click to build template",
-					"draw_template_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys",
-					"build_road_tip_title": "Click and drag to build road",
-					"build_road_tip_description": "Right click to exit",
-					"stairs_tip_title": "Click to place stairs",
-					"stairs_tip_description": "Right click to exit. Rotate with [str(left_binding)] and [str(right_binding)] keys"
+					"build_floor_tip_title": "Clique e arraste para colocar piso",
+					"build_floor_tip_description": "Clique com o botão direito para sair",
+					"build_slab_tip_title": "Clique e arraste para construir uma laje",
+					"build_slab_tip_description": "Clique com o botão direito para sair",
+					"erase_structure_tip_title": "Clique para apagar itens. Clique e arraste para apagar o chão",
+					"erase_structure_tip_description": "Clique com o botão direito para sair",
+					"roof_tip_title": "Clique em uma planta baixa para colocar o telhado",
+					"roof_tip_description": "Clique com o botão direito para sair",
+					"raise_walls_tip_title": "Clique em uma planta baixa para adicionar paredes",
+					"raise_walls_tip_description": "Clique com o botão direito para sair",
+					"doodad_tip_title": "Clique em uma parede para colocar a porta ou janela",
+					"doodad_tip_description": "Clique com o botão direito para sair",
+					"draw_template_title": "Clique para construir o modelo",
+					"draw_template_description": "Rodar com [str(left_binding)] e [str(right_binding)] teclas",
+					"build_road_tip_title": "Clique e arraste para construir estrada",
+					"build_road_tip_description": "Clique com o botão direito para sair",
+					"stairs_tip_title": "Clique para colocar escadas",
+					"stairs_tip_description": "Clique com o botão direito para sair. Rodar com [str(left_binding)] e [str(right_binding)] teclas"
 				},
 				"building_cost": {
-					"required_item": "Needed Items"
+					"required_item": "Itens Necessários"
 				},
 				"overview": {
 					"title": "Projetar Construção - [str(building_name)]",
 					"building_name": "Nome da Construção",
-					"building_cost": "Materials Needed",
+					"building_cost": "Materiais necessários",
 					"start_building": "Construir!",
 					"pause_building": "Pause Construção",
 					"continue_building": "Continue Construção",
@@ -929,165 +926,165 @@
 					"finished_editing": "Finalizar Edição",
 					"start_editing": "Editar",
 					"build_complete_title": "Parabéns!",
-					"build_complete_description": "this building is complete",
+					"build_complete_description": "este edifício está completo",
 					"compute_scaffolding": "Planejar Construção"
 				},
 				"roof": {
-					"title": "Roof Menu - [str(building_name)]"
+					"title": "Menu do telhado - [str(building_name)]"
 				},
 				"roof_shape": {
-					"title": "Slope, Direction, & Size",
-					"max_height": "Max Height",
-					"rise_slope": "Rise Slope",
-					"y_offset": "Roof Offset",
-					"show_gradient": "Slope",
-					"show_margin": "Overhang"
+					"title": "Inclinação, direção e tamanho",
+					"max_height": "Altura máxima",
+					"rise_slope": "Subir Declive",
+					"y_offset": "Desvio do telhado",
+					"show_gradient": "Declive",
+					"show_margin": "Saliência"
 				},
 				"stairs_shape": {
-					"shape_title": "Stairs Shape",
-					"options_title": "Stairs Options",
-					"max_height": "Free-standing Height",
-					"width": "Width",
-					"solid_stairs": "Solid Stairs",
-					"hollow_stairs": "Hollow Stairs"
+					"shape_title": "Forma de escadas",
+					"options_title": "Opções de Escadas",
+					"max_height": "Altura",
+					"width": "Largura",
+					"solid_stairs": "Escadas Sólidas",
+					"hollow_stairs": "Escadas ocas"
 				},
 				"building_templates": {
 					"title": "Modelos de Construção",
-					"design_custom_building": "Design Custom Building",
-					"search_placeholder": "Search templates...",
+					"design_custom_building": "Desenha construção",
+					"search_placeholder": "Modelos de pesquisa...",
 					"template_names": {
-						"tiny_cottage": "Tiny Cottage",
-						"cottage_for_two": "Cottage for Two",
-						"shared_sleeping_quarters": "Shared Sleeping Quarters",
-						"dining_hall": "Dining Hall",
-						"herbalist_house": "Herbalist's House",
-						"little_clay_house": "Little Clay House",
-						"clay_house_for_two": "Clay House for Two",
-						"clay_dining_room": "Clay Dining Room",
-						"clay_dormitory": "Clay Dormitory"
+						"tiny_cottage": "Chale minúsculo",
+						"cottage_for_two": "Chale para dois",
+						"shared_sleeping_quarters": "Quartos de dormir compartilhados",
+						"dining_hall": "Sala de jantar",
+						"herbalist_house": "Casa do Herborista",
+						"little_clay_house": "Casinha de barro",
+						"clay_house_for_two": "Casa de barro para dois",
+						"clay_dining_room": "Sala de Jantar de Argila",
+						"clay_dormitory": "Dormitório de argila"
 					},
 					"set_template_name_title": "Nome do modelo",
-					"template_default_name": "My new building template",
-					"set_template_name_prompt": "Enter a name for this template",
-					"ignore_quality": "Ignore Quality",
-					"ignore_quality_tooltip": "Treat all items in the template as standard quality (rather than Fine, Excellent, etc.).",
+					"template_default_name": "Digite um nome para este modelo",
+					"set_template_name_prompt": "Digite um nome para este modelo",
+					"ignore_quality": "Ignorar Qualidade",
+					"ignore_quality_tooltip": "Trate todos os itens no modelo como qualidade padrão (em vez de Bom, Excelente, etc).",
 					"remove_template_confirm": {
-						"title": "Delete Template",
-						"message": "Are you sure you want to delete this building template?",
-						"keep_template": "Keep this template",
-						"remove_template": "Delete it!"
+						"title": "Excluir modelo",
+						"message": "Tem certeza de que deseja excluir este modelo de construção?",
+						"keep_template": "Mantenha este modelo",
+						"remove_template": "Delete isso!"
 					},
 					"template_description_tooltip": "Nome do arquivo: [str(filename)]",
 					"remove_template_button": "excluir modelo",
 					"build_template_button": "Construir"
 				},
 				"place_item": {
-					"title": "Place an Item"
+					"title": "Coloque um item"
 				},
 				"materials": {
 					"wall": {
-						"material": "Material da parede",
+						"material": "Tipos de materiais para parede",
 						"wood_resource": "Parede de madeira",
 						"stone_resource": "Parede de pedra",
 						"clay_resource": "Parede de argila",
 						"clay_brick_resource": "Parede de tijolos de argila"
 					},
 					"foundation": {
-						"material": "Material de Fundação",
+						"material": "Tipos de materiais para fundação",
 						"wood_resource": "Fundação de madeira",
 						"stone_resource": "Fundação de pedra",
-						"clay_resource": "Fundação de argila",
-						"clay_brick_resource": "Fundação de tijolo de argila"
+						"clay_resource": "Fundação de Argila",
+						"clay_brick_resource": "Fundação de tijolos"
 					},
 					"slab": {
-						"material": "Slab Material",
-						"wood_resource": "Wooden Slab",
-						"stone_resource": "Stone Slab",
-						"clay_resource": "Clay Slab",
-						"clay_brick_resource": "Clay Brick Slab"
+						"material": "Tipos de materiais para bloco",
+						"wood_resource": "Bloco de madeia",
+						"stone_resource": "Bloco de pedra",
+						"clay_resource": "Bloco de argila",
+						"clay_brick_resource": "Bloco de tijolo"
 					},
 					"floor": {
-						"material": "Floor Material",
-						"wood_resource": "Wooden Floor",
-						"stone_resource": "Stone Floor",
-						"clay_resource": "Clay Floor",
-						"clay_brick_resource": "Clay Brick Floor"
+						"material": "Tipos de materiais para piso",
+						"wood_resource": "Piso de madeira",
+						"stone_resource": "Piso de pedra",
+						"clay_resource": "Piso de argila",
+						"clay_brick_resource": "Piso de tijolo"
 					},
 					"roof": {
-						"material": "Roof Material",
-						"wood_resource": "Wooden Roof",
-						"stone_resource": "Stone Roof",
-						"clay_resource": "Clay Roof",
-						"clay_brick_resource": "Clay Brick Roof"
+						"material": "Tipos de materiais para telhado",
+						"wood_resource": "Telhado de madeira",
+						"stone_resource": "Telhado de pedra",
+						"clay_resource": "Telhado de argila",
+						"clay_brick_resource": "Telhado de tijolos"
 					},
 					"column": {
-						"material": "Column Material",
-						"wood_resource": "Wooden Column",
-						"stone_resource": "Stone Column",
-						"clay_resource": "Clay Column",
-						"clay_brick_resource": "Clay Brick Column"
+						"material": "Tipos de materiais para colunas",
+						"wood_resource": "Coluna de madeira",
+						"stone_resource": "Coluna de pedra",
+						"clay_resource": "Coluna de argila",
+						"clay_brick_resource": "Coluna de tijolos"
 					},
 					"road": {
-						"material": "Road Material",
-						"wood_resource": "Wooden Road",
-						"stone_resource": "Stone Road",
-						"clay_resource": "Clay Road",
-						"clay_brick_resource": "Clay Brick Road"
+						"material": "Tipos de materiais para estradas",
+						"wood_resource": "Estrada de madeira",
+						"stone_resource": "Estrada de pedra",
+						"clay_resource": "Estrada de argila",
+						"clay_brick_resource": "Estrada de tijolos"
 					},
 					"stairs": {
-						"material": "Stairs Material",
-						"wood_resource": "Wooden Stairs",
-						"stone_resource": "Stone Stairs",
-						"clay_resource": "Clay Stairs",
-						"clay_brick_resource": "Clay Brick Stairs"
+						"material": "Tipos de materiais para escada",
+						"wood_resource": "Escada de madeira",
+						"stone_resource": "Escada de pedra",
+						"clay_resource": "Escada de argila",
+						"clay_brick_resource": "Escada de tijolo"
 					}
 				},
 				"start_building_confirm": {
 					"title": "Realmente começar a construir?",
-					"message": "Once you begin building this structure cannot be edited or removed! Are you sure you want to build now?",
+					"message": "Quando você começar a construir essa estrutura, não poderá ser editada ou removida! Tem certeza de que quer construir agora?",
 					"yes": "Sim, comece a construir!",
 					"no": "Ainda não"
 				},
 				"remove_building_confirm": {
-					"title": "Really remove this building",
-					"message": "Are you sure you want to remove this entire building?",
-					"keep_building": "Keep this building",
-					"remove_building": "Remove this building"
+					"title": "Serio, remova este prédio",
+					"message": "Tem certeza de que deseja remover este prédio inteiro?",
+					"keep_building": "Mantenha este prédio",
+					"remove_building": "Remover este prédio"
 				}
 			},
 			"zones_mode": {
 				"farm": {
-					"choose_crop": "Choose a Crop",
-					"fallow_name": "Fallow",
-					"fallow_description": "Plant no crop and let the soil renew itself."
+					"choose_crop": "Escolha um tipo de plantação",
+					"fallow_name": "Renovar",
+					"fallow_description": "Não plante nenhuma colheita e deixe o solo se renovar."
 				},
 				"mining": {
-					"help": "Mining allows you to create underground rooms and corridors. You can also discover resources while digging.",
-					"disable": "Suspend Mining",
-					"enable": "Resume Mining"
+					"help": "A mineração permite que você crie salas e corredores subterrâneos. Você também pode descobrir recursos ao escavar.",
+					"disable": "Suspender Mineração",
+					"enable": "Continuar a mineração"
 				},
 				"trapping_grounds": {
-					"help": "Trappers will place traps in a trapping grounds and will periodically check to see if anything has been caught.",
-					"disable": "Suspend Trapping",
-					"enable": "Resume Trapping"
+					"help": "Os caçadores colocarão armadilhas em um local de captura e verificarão periodicamente se alguma coisa foi capturada.",
+					"disable": "Suspender Armadilhas",
+					"enable": "Retomar Armadilhas"
 				},
 				"pasture": {
-					"help": "Shepherds bring animals to this region and tend to their needs here.",
-					"choose_pasture_type": "Choose Pasture Type",
-					"sheep_pasture_name": "Sheep Pasture",
-					"rabbit_pasture_name": "Rabbit Pen",
-					"poyo_pasture_name": "Poyo Coop",
-					"sheep_pasture_description": "Sheep produce wool, used by the weaver. Slaughtering sheep will produce mutton, a raw cooking ingredient",
-					"rabbit_pasture_description": "Rabbits reproduce quickly and can be slaughtered for jerky and pelts",
-					"poyo_pasture_description": "Poyos produce eggs, a valuable cooking ingredient. Slaughtering poyo will yield meat and, occasionally, feathers for crafting",
-					"num_animals": "Animals:"
+					"help": "Os pastores trazem animais para esta região e atendem às suas necessidades aqui.",
+					"choose_pasture_type": "Escolha o tipo de pasto",
+					"sheep_pasture_name": "Pasto de ovelhas",
+					"rabbit_pasture_name": "Pasto de Coelho",
+					"poyo_pasture_name": "Pasto de Poyo(galinha)",
+					"sheep_pasture_description": "Ovelhas produzem lã, usada pelo tecelão. O abate de ovelhas produz carne de carneiro, um ingrediente de culinária crua",
+					"rabbit_pasture_description": "Coelhos se reproduzem rapidamente e podem ser abatidos por espasmódicos e peles",
+					"poyo_pasture_description": "Os poyos(galinha) produzem ovos, um ingrediente culinário valioso. O poyo de abate produzirá carne e, ocasionalmente, penas para artesanato.",
+					"num_animals": "Animais:"
 				},
 				"stockpile": {
-					"default_stockpile_name": "Stockpile",
+					"default_stockpile_name": "Estoque",
 					"contents": "Conteúdo",
 					"filter": "Filtro",
-					"help": "Click the icons to choose what to store in this stockpile.",
-					"help_single_filter": "Click an icon to choose the item type to store in this container.",
+					"help": "Clique nos ícones para escolher o que armazenar neste estoque.",
+					"help_single_filter": "Clique em um ícone para escolher o tipo de item a ser armazenado nesse contêiner.",
 					"used_space": "Espaço utilizado:",
 					"filters": {
 						"all": "Todos",
@@ -1098,121 +1095,121 @@
 						"gear": "Armas & Armaduras",
 						"food_and_drink": "Comidas & Bebidas",
 						"wealth": "Riqueza",
-						"tooltip_tools": "Talismans and Workbenches",
+						"tooltip_tools": "Talismãs e bancadas de trabalho",
 						"tooltip_wood": "Madeira",
 						"tooltip_stone": "Pedra",
 						"tooltip_clay": "Barro",
-						"tooltip_ore": "Mineios",
+						"tooltip_ore": "Minerios",
 						"tooltip_animal_part": "Pele e couro de animais",
-						"tooltip_resource_pile": "resource piles",
+						"tooltip_resource_pile": "pilhas de recursos",
 						"tooltip_plant": "Plantas",
 						"tooltip_portal": "Portas & Janelas",
 						"tooltip_furniture": "Mobília",
-						"tooltip_defense": "Defenses",
-						"tooltip_light": "torches & lights",
+						"tooltip_defense": "Defesas",
+						"tooltip_light": "tochas e luzes",
 						"tooltip_decoration": "Decorações",
-						"tooltip_refined_weaver": "Thread, Cloth, and Leather",
-						"tooltip_refined_craftables": "Refined Craftables",
-						"tooltip_refined_animal_part": "goods produced from bits of animals",
-						"tooltip_refined_ore": "Refined Metal",
+						"tooltip_refined_weaver": "Fio, Pano e Couro",
+						"tooltip_refined_craftables": "Artesanatos Refinados",
+						"tooltip_refined_animal_part": "bens produzidos a partir de pedaços de animais",
+						"tooltip_refined_ore": "Metal Refinado",
 						"tooltip_weapons": "Armas",
-						"tooltip_ranged_weapon": "ranged weapons",
-						"tooltip_equipment": "Armor and Other Equipment",
-						"tooltip_heavy_armor": "heavy armor",
-						"tooltip_exotic_gear": "exotic gear",
-						"tooltip_drink": "tasty beverages",
-						"tooltip_gold": "Gold Chests",
-						"tooltip_trophy": "Trophies",
-						"tooltip_raw_food": "Raw Foods",
-						"tooltip_prepared_food": "Cooked Foods",
-						"tooltip_cooking_ingredients": "Cooking Ingredients and Animal Feed",
-						"tooltip_cooking": "Cooking",
-						"tooltip_consumables": "Healing Items and Other Consumables",
-						"tooltip_animal_parts": "Animal Parts"
+						"tooltip_ranged_weapon": "armas de longo alcance",
+						"tooltip_equipment": "Armadura e Outro Equipamento",
+						"tooltip_heavy_armor": "armadura pesada",
+						"tooltip_exotic_gear": "engrenagem exótica",
+						"tooltip_drink": "bebidas saborosas",
+						"tooltip_gold": "Baús de ouro",
+						"tooltip_trophy": "Troféus",
+						"tooltip_raw_food": "Alimentos crus",
+						"tooltip_prepared_food": "Alimentos Cozidos",
+						"tooltip_cooking_ingredients": "Ingredientes de Culinária e Ração Animal",
+						"tooltip_cooking": "Cozinhando",
+						"tooltip_consumables": "Itens de Cura e Outros Consumíveis",
+						"tooltip_animal_parts": "Parte de animais"
 					}
 				}
 			},
 			"show_workshop": {
-				"workshop_title": "[str(job_name)] Crafting Orders",
-				"placeholder": "Type to search",
-				"show_workshop_description": "Owned by [name(owner)]",
-				"unclaimed_workshop_description": "Unclaimed",
-				"workshop_entity_claimed_description": "Owned by [name(self.stonehearth:workshop.crafter)]",
-				"craft_number_left": "Craft",
-				"craft_number_right": "right now.",
+				"workshop_title": "[str(job_name)] Ordens de artesanato",
+				"placeholder": "Tipo de pesquisa",
+				"show_workshop_description": "Criado por [name(owner)]",
+				"unclaimed_workshop_description": "Não reclamado",
+				"workshop_entity_claimed_description": "Criado por [name(self.stonehearth:workshop.crafter)]",
+				"craft_number_left": "Construir",
+				"craft_number_right": "agora mesmo.",
 				"craft_up_to_left": "Manter",
 				"craft_up_to_right": "no inventário.",
 				"craft_ingredients": "Ingredientes:",
 				"craft_requirements": "Requisitos:",
-				"unlock_text": "To Unlock:",
-				"crafting_status": "crafting...",
+				"unlock_text": "Para liberar:",
+				"crafting_status": "construindo...",
 				"crafting_status_queued": "Enfileiradas",
 				"workshop_paused_status": "Pausado...",
 				"workshop_remove_confirm": "Remover?",
 				"workshop_open": "Aberto!",
 				"workshop_closed": "Fechado",
-				"maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
-				"craft": "Craft!",
-				"craft_queue_full": "Orders Full!",
+				"maintain_option_disabled": "Construa um estoque ou coloque uma caixa para desbloquear mais opções de artesanato!",
+				"craft": "Construir!",
+				"craft_queue_full": "Pedidos completos!",
 				"craftable_locked": "Desbloqueado no nível: [str(level)]",
-				"workshop_requirement_title": "Oficina",
+				"workshop_requirement_title": "workshop",
 				"workshop_none_required": "Nada solicitado!",
 				"workshop_required": "Requires a placed ",
 				"level_requirement_title": "Requisito de Nível",
-				"level_requirement_none": "None Required!",
-				"level_requirement_needed": "Requires a ",
-				"level_requirement_level": " of Level ",
+				"level_requirement_none": "Nada solicitado!",
+				"level_requirement_needed": "Requer um(a) ",
+				"level_requirement_level": " de nivel ",
 				"too_many_symbol": "lots",
-				"requirements_unmet_general": "Craft Requirements Unmet!",
-				"queue_anyway": "Queue Order Anyway",
+				"requirements_unmet_general": "Falta algo!",
+				"queue_anyway": "Colocar na fila",
 				"recipe_tab": "Receitas",
 				"orders_tab": "Encomendas",
-				"missing_ingredients": "Missing ingredients: ",
-				"tooltip_appeal_stat": "Appeal",
-				"tooltip_net_worth_stat": "Gold Value"
+				"missing_ingredients": "Ingredientes ausentes: ",
+				"tooltip_appeal_stat": "Recurso",
+				"tooltip_net_worth_stat": "Valor de ouro"
 			},
 			"town_overview": {
-				"title": "Town Overview",
-				"town_morale": "Town Morale",
-				"initial_town_name": "Expedition [str(town_number)]",
+				"title": "Visão geral da cidade",
+				"town_morale": "Moral da cidade",
+				"initial_town_name": "Expedição [str(town_number)]",
 				"journal": {
 					"default_message": "Ainda não existem entradas no diário!",
 					"signature": "--[name(entry.person)]",
-					"today": "Today",
-					"town_log": "Town Log",
-					"praises": "Praises",
+					"today": "Hoje",
+					"town_log": "Registro da cidade",
+					"praises": "Louvores",
 					"gripes": "Gripes",
-					"praise_empty": "Nothing praiseworthy happened today.",
-					"gripe_empty": "Whoa. I guess nobody has anything to gripe about."
+					"praise_empty": "Nada louvável aconteceu hoje.",
+					"gripe_empty": "Uau. Eu acho que ninguém tem nada para reclamar."
 				},
 				"networth": {
-					"town_description": "The [str(descriptor)] [str(noun)] of [str(town_name)]",
+					"town_description": "O [str(descriptor)] [str(noun)] de [str(town_name)]",
 					"size": {
-						"camp": "Camp",
-						"settlement": "Settlement",
-						"hamlet": "Hamlet",
-						"village": "Village",
-						"town": "Town",
-						"county": "County",
-						"kingdom": "Kingdom",
-						"empire": "Empire"
+						"camp": "Acampamento",
+						"settlement": "Assentamento",
+						"hamlet": "Aldeia",
+						"village": "Vilarejo",
+						"town": "Cidade",
+						"county": "município",
+						"kingdom": "Reino",
+						"empire": "Emperio"
 					},
 					"morale_descriptor": {
-						"0": "Wretched",
-						"1": "Miserable",
-						"2": "Dejected",
-						"3": "Listless",
-						"4": "Fair",
-						"5": "Good",
-						"6": "Contented",
-						"7": "Merry",
-						"8": "Joyous",
-						"9": "Buoyant",
-						"10": "Incandescent"
+						"0": "Terrivel",
+						"1": "Miserável",
+						"2": "Desanimado",
+						"3": "Indiferente",
+						"4": "Justo",
+						"5": "Bom",
+						"6": "Contente",
+						"7": "Alegre",
+						"8": "Feliz",
+						"9": "Nas alturas",
+						"10": "Incandescente"
 					}
 				},
 				"score": {
-					"net_worth": "Net worth",
+					"net_worth": "Patrimônio líquido",
 					"buildings": "Construções",
 					"inventory": "Inventário",
 					"agriculture": "Agricultura",
@@ -1237,74 +1234,74 @@
 		"shell": {
 			"about": {
 				"title": "Sobre Stonehearth",
-				"attributions": "The following is a list of OpenSource Software that is used in Stonehearth:"
+				"attributions": "A seguir, uma lista do Software OpenSource que é usado no Stonehearth:"
 			},
 			"loading_screen": {
 				"initial_load_game_text": "Carregando",
 				"initial_load_map_text": "Gerando Mundo",
 				"loading_map_flavor_text": {
-					"001": "sharpening right angles...",
-					"002": "decompressing voxels...",
-					"003": "synthesizing fauna...",
-					"004": "redistributing redistributables...",
-					"005": "terracing terrain...",
-					"006": "stocking piles...",
-					"007": "inflating trees...",
-					"008": "raising sun...",
-					"009": "floating clouds...",
-					"010": "burlying hands...",
-					"011": "bushing berries...",
-					"012": "confabulating childhood...",
-					"013": "resolving determinism...",
-					"014": "cubulating companionship...",
-					"015": "existentializing dilemmas...",
-					"016": "improvising morals...",
-					"017": "splining reticulators..",
-					"018": "diversifying gender...",
-					"019": "homogenizing motivation...",
-					"020": "deriving history...",
-					"021": "indexing bugs...",
-					"022": "compiling truth...",
-					"023": "recollecting marbles...",
-					"024": "effecting mass...",
-					"025": "experiencing higher math...",
-					"026": "proliferating flowers...",
-					"027": "escaping realism...",
-					"028": "positioning plushies...",
-					"029": "regulating hairbobs...",
-					"030": "shearing sheep...",
-					"031": "percolating brain...",
-					"032": "poking poyos..."
+					"001": "afiando ângulos retos...",
+					"002": "descompressão de voxels...",
+					"003": "sintetizando fauna...",
+					"004": "redistribuindo redistribuíveis...",
+					"005": "aterrando terreno...",
+					"006": "estocando em pilhas...",
+					"007": "crescendo arvores...",
+					"008": "sol nascente...",
+					"009": "nuvens flutuantes...",
+					"010": "apertando as mãos...",
+					"011": "cachos de frutas...",
+					"012": "confabulando infância...",
+					"013": "resolvendo o determinismo...",
+					"014": "cubulando companheirismo...",
+					"015": "dilemas existencializadores...",
+					"016": "improvisando a moral...",
+					"017": "reticuladores de splines..",
+					"018": "diversificando gênero...",
+					"019": "motivação homogeneizadora...",
+					"020": "derivando história...",
+					"021": "erros de indexação...",
+					"022": "Compilando a verdade...",
+					"023": "recordando mármores...",
+					"024": "efetuando massa...",
+					"025": "experimentando maior matemática...",
+					"026": "proliferando flores...",
+					"027": "escapando do realismo...",
+					"028": "posicionando plushies...",
+					"029": "regulando hairbobs...",
+					"030": "ovelha de corte...",
+					"031": "cérebro percolando...",
+					"032": "cutucando galinha..."
 				},
 				"tips": {
-					"000": "If your workers get stuck in a mine, you can build a ladder to get them out!",
-					"001": "Your hearthlings will get a better night's sleep if you provide beds for them.",
-					"002": "Build pens around your pastures to make sure shepherded animals stay put.",
-					"003": "Stockpiles can be changed to hold specific kinds of items.",
-					"004": "You can farm silkweed for a steady supply of thread fiber.",
-					"005": "A well fed town is a happy town.",
-					"006": "Use the < and > keys to rotate an item or building before placing it.",
-					"007": "Your hearthlings move faster on roads.",
-					"008": "The weaver can craft new uniforms that increases the effectiveness of your workers.",
-					"009": "Sitting during a meal helps with digestion. Build tables and chairs for your hearthlings.",
-					"010": "Shepherds will automatically find sheep to fill a pasture.",
-					"011": "If you want a higher net worth, try selling your items to a merchant for gold.",
-					"012": "Resources and Food do not contribute to your town net worth.",
-					"013": "The curiosity attribute increases experience gain.",
-					"014": "Fine items have a higher net worth than their normal versions.",
-					"015": "The net worth of an item is its sell value.",
-					"016": "You can use a tunnel door to block off your mining tunnel entrances.",
-					"017": "Don't want your hearthlings to leave town? The Engineer can make a lockable door.",
-					"018": "Settlers with a high Mind attribute will make good crafters.",
-					"019": "Place food stockpiles closer to work areas so it's easier for your hearthlings to access food.",
-					"020": "Trappers can set traps in the mountains and the desert, but there are fewer critters there.",
-					"021": "You can disable a combat unit's job in the Citizens panel to force them to take a rest from fighting.",
-					"022": "Mining dirt will occasionally yield clay and stone.",
-					"023": "You can visually see ore veins in the side of mountains.",
-					"024": "Need a starting food source? Move Berry Bushes or Prickly Pear Cacti closer to your town.",
-					"025": "After defeating the Goblin Chieftain, you can claim Bluebell the sheep as your own.",
-					"026": "Your hearthlings don't like being in cramped spaces for too long.",
-					"027": "Farm animals can reproduce if there are at least 2 of the same animals in a pen."
+					"000": "Se seus trabalhadores ficarem presos em uma mina, você pode construir uma escada para tirá-los!",
+					"001": "Seus colonos terão uma noite de sono melhor se você fornecer camas para eles.",
+					"002": "Construa curral ao redor de seus pastos para ter certeza de que os animais pastores ficarão parados.",
+					"003": "Os estoques podem ser alterados para conter tipos específicos de itens.",
+					"004": "Você pode cultivar o planta de seda para um suprimento constante de fibra de fio.",
+					"005": "Uma cidade bem alimentada é uma cidade feliz.",
+					"006": "Use as teclas < e > para girar um item ou prédio antes de colocá-lo.",
+					"007": "Seus colonos se movem mais rápido nas estradas.",
+					"008": "O tecelão pode criar novos uniformes que aumenta a eficácia de seus trabalhadores.",
+					"009": "Sentar-se durante uma refeição ajuda na digestão. Construa mesas e cadeiras para seus colonos.",
+					"010": "Os pastores encontrarão automaticamente ovelhas para preencher um pasto.",
+					"011": "Se você quiser um patrimônio líquido maior, tente vender seus itens para um comerciante de ouro.",
+					"012": "Recursos e alimentos não contribuem para o patrimônio líquido de sua cidade.",
+					"013": "O atributo de curiosidade aumenta o ganho de experiência.",
+					"014": "Itens de boa qualidade são mais caros que suas versões normais.",
+					"015": "O valor líquido de um item é seu valor de venda.",
+					"016": "Você pode usar uma porta de túnel para bloquear suas entradas de túnel de mineração.",
+					"017": "Não quer que seus colonos saiam da cidade? O engenheiro pode fazer uma porta com trava.",
+					"018": "Colonons com um alto atributo Mente fará bons artesanatos.",
+					"019": "Coloque os estoques de alimentos mais perto das áreas de trabalho, para facilitar o acesso aos alimentos.",
+					"020": "Os caçadores podem montar armadilhas nas montanhas e no deserto, mas há menos criaturas lá.",
+					"021": "Você pode desativar o trabalho de uma unidade de combate no painel colonos para forçá-los a descansar da luta.",
+					"022": "A sujeira da mineração ocasionalmente produz argila e pedra",
+					"023": "Você pode ver visualmente as veias de minério no lado das montanhas.",
+					"024": "Precisa de uma fonte alimentar inicial? Mova arbusto de frutas ou Cactos de Pera Espinhosa para mais perto da sua cidade.",
+					"025": "Depois de derrotar o Chefe Goblin, você pode reivindicar a ovelha Bluebell como se fosse sua.",
+					"026": "Seus colonos não gostam de ficar em espaços apertados por muito tempo.",
+					"027": "Animais da fazenda podem se reproduzir, se houver ao menos 2 dos mesmos animais em uma curral."
 				}
 			},
 			"select_settlement": {
@@ -1316,11 +1313,11 @@
 				"world_seed": "Número do mundo: ",
 				"terrain_stats": {
 					"trees_and_plants_title": "Árvores e Plantas",
-					"trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
+					"trees_and_plants_description": "A madeira é um recurso de construção principal. Você precisará de alguns para construir seus prédios e criar itens como camas, mesas e cadeiras.",
 					"wildlife_title": "Vida selvagem",
-					"wildlife_description": "Local wildlife can be hunted for food and raw crafting materials.",
+					"wildlife_description": "A fauna local pode ser caçada por alimentos e materiais de artesanato em bruto.",
 					"minerals_title": "Minerais",
-					"minerals_description": "You will need minerals if you plan on building things from stone or metal."
+					"minerals_description": "Você precisará de minerais se planeja construir coisas de pedra ou metal."
 				},
 				"terrain_codes": {
 					"water": "Água",
@@ -1337,21 +1334,21 @@
 					"mountains_6": "Pico da montanha",
 					"mountains_7": "Pico da montanha",
 					"mountains_8": "Pico da montanha",
-					"vegetation_0": "Nary a weed",
-					"vegetation_1": "Sparse",
-					"vegetation_2": "Average",
-					"vegetation_3": "Dense",
-					"vegetation_4": "Lush",
-					"wildlife_0": "Desolate",
-					"wildlife_1": "Scarce",
-					"wildlife_2": "Common",
-					"wildlife_3": "Plentiful",
-					"wildlife_4": "Abundant",
+					"vegetation_0": "Nary uma erva daninha",
+					"vegetation_1": "Escasso",
+					"vegetation_2": "Média",
+					"vegetation_3": "Denso",
+					"vegetation_4": "Exuberante",
+					"wildlife_0": "Desolado",
+					"wildlife_1": "Escasso",
+					"wildlife_2": "Comum",
+					"wildlife_3": "Rico",
+					"wildlife_4": "Abundante",
 					"mineral_0": "None",
-					"mineral_1": "Sparse",
-					"mineral_2": "Infrequent",
-					"mineral_3": "Common",
-					"mineral_4": "Ample"
+					"mineral_1": "Escasso",
+					"mineral_2": "Incomum",
+					"mineral_3": "Comum",
+					"mineral_4": "Amplo"
 				}
 			},
 			"settings": {
@@ -1363,7 +1360,7 @@
 				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Habilitar Sombras",
 				"gfx_enable_vsync": "Habilitar VSync",
-				"gfx_enable_fullscreen": "Tela Cheia (Requer Reinicio)",
+				"gfx_enable_fullscreen": "Tela Cheia",
 				"gfx_msaa": "Nivel de Anti-Aliasing",
 				"gfx_shadows": "Detalhes de Sombra",
 				"gfx_max_lights": "Nº Maximo de Luzes",
@@ -1403,158 +1400,157 @@
 					"experimental_description": "Estas definições estão em desenvolvimento e pode não esta estavel! Ative a seu provrio risco!",
 					"enable_speed_3": "Ativar velocidade 3",
 					"enable_speed_3_note": "Nota: O desempenho pode ser comprometido com as cidades maiores. esteja avisado!",
-					"enable_speed_3_description": "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
-					"default_storage_filter_none": "Storage filter defaults to None",
-					"default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
-					"show_hearthling_paths": "Show Hearthling paths",
-					"show_hearthling_paths_description": "Display the path your hearthlings are following.",
-					"max_citizens": "Nº Maximo de Cidadãos",
-					"randomize_attributes": "Randomize Hearthling Attributes",
-					"randomize_attributes_description": "If enabled, hearthling Mind, Body, and Spirit attributes will be assigned completely at random instead of distributed in a balanced fashion.",
-					"auto_loot": "Auto Loot",
-					"auto_loot_description": "When an enemy drops loot, automatically mark it for pick up.",
-					"building_auto_queue_crafters": "Auto Queue Crafting For Building",
-					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters."
+					"enable_speed_3_description": "Adiciona uma nova opção de velocidade no painel inferior direito que irá rodar o jogo a 4x de velocidade!",
+					"default_storage_filter_none": "Padrão de filtro de armazenamento para nenhum",
+					"default_storage_filter_none_description": "Ao criar um novo estoque ou colocar uma nova caixa, o filtro padrão no armazenamento será definido como 'Nenhum' em vez de 'Todos'",
+					"show_hearthling_paths": "Mostrar caminhos de colono",
+					"show_hearthling_paths_description": "Mostre o caminho que seus colonos estão seguindo.",
+					"max_citizens": "Nº Maximo de colonos",
+					"randomize_attributes": "Randomize colono Attributes",
+					"randomize_attributes_description": "Se ativado, os atributos colono Mind, Body e Spirit serão atribuídos completamente ao acaso, em vez de distribuídos de forma equilibrada.",
+					"auto_loot": "Saque Automático",
+					"auto_loot_description": "Quando um inimigo derruba o saque, marca automaticamente para pegar.",
+					"building_auto_queue_crafters": "Criação automática de fila para construção",
+					"building_auto_queue_crafters_description": "Ao iniciar a construção de um prédio, todos os móveis e utensílios do prédio são automaticamente enfileirados para seus respectivos artesãos."
 				},
-				"mods": "Módulos",
+				"mods": "Mods",
 				"mods_tab": {
-					"title": "Módulos Instalado",
-					"note": "Abilitar Ou Desabilitar um Módulo Requer Reinicio.",
+					"title": "Mods Instalado",
+					"note": "Abilitar Ou Desabilitar um Mod Requer Reinicio.",
 					"invalid_manifest": "Manifest Invalido",
-					"invalid_steam_file": "Invalid Steam File Id",
+					"invalid_steam_file": "ID de arquivo do Steam invalido",
 					"out_of_date": "Desatualizado",
-					"deferred_load": "Módulo carregado Altomaticamente",
+					"deferred_load": "mod carregado Altomaticamente",
 					"required": "Necessário",
-					"debug": "Debug Mod",
-					"localization": "Is this a translation mod?",
-					"loading_namespace": "[ Carregando... ]",
+					"debug": "Tela de depuração Mod",
+					"localization": "Localização do mod",
 					"mods_changed_dialog": {
-						"title": "Mudar Módulo",
-						"message": "O jogo precisa recarregar para aplicar as alterações do módulo. Reiniciar agora?",
-						"accept": "Ok",
+						"title": "Mudar mod",
+						"message": "O jogo precisa recarregar para aplicar as alterações do mod. Reiniciar agora?",
+						"accept": "Aceito",
 						"cancel": "Cancelar"
 					},
 					"upload_error_dialog": {
-						"title": "Upload failed",
-						"message": "Could not upload \"[str(modname)]\": [str(error)]"
+						"title": "Falha ao enviar",
+						"message": "Não foi possível fazer enviar \"[str(modname)]\": [str(error)]"
 					},
 					"create_mod_error_dialog": {
-						"title": "Create mod failed",
-						"message": "Could not create mod \"[str(modname)]\": [str(error)]"
+						"title": "Falha ao criar mod",
+						"message": "Não foi possível criar o mod \"[str(modname)]\": [str(error)]"
 					}
 				},
 				"controls_tab": {
-					"key_binding_prompt": "Press Del to unbind",
+					"key_binding_prompt": "Pressione Del para desvincular",
 					"reset_to_defaults": "Configuração Padrão",
-					"unbound": "unbound",
+					"unbound": "desvinculado",
 					"conflict_dialog": {
-						"title": "Binding Conflict",
-						"message": "\"<strong>[str(combo)]</strong>\" is already used by [str(conflicts)].",
-						"choice_replace": "Unbind Existing",
-						"choice_keep": "Keep All",
-						"choice_cancel": "Cancel"
+						"title": "Conflito de Ligação",
+						"message": "\"<strong>[str(combo)]</strong>\" já é usado por[str(conflicts)].",
+						"choice_replace": "Desvincular Existente",
+						"choice_keep": "Mantenha tudo",
+						"choice_cancel": "Cancelar"
 					},
 					"key_category_names": {
-						"other": "Other",
+						"other": "Outros",
 						"camera": "Camera",
-						"vision": "Vision",
+						"vision": "Visão",
 						"speed": "Velocidade",
 						"menus": "Menus",
 						"harvest": "Ferramentas",
-						"zone": "Zoning",
-						"build": "Building",
-						"craft": "Crafting",
+						"zone": "Zoneamento",
+						"build": "Construção",
+						"craft": "Criação",
 						"fight": "Combat",
-						"ui": "User Interface",
-						"debug": "Debug"
+						"ui": "Interface de usuário",
+						"debug": "Tela de Depurar"
 					},
 					"key_binding_names": {
-						"cam_drag": "Drag Camera",
-						"cam_home": "Recenter Camera",
+						"cam_drag": "Arrastar câmera",
+						"cam_home": "Câmera recente",
 						"cam_pan_fwrd": "Pan Camera Up",
 						"cam_pan_back": "Pan Camera Down",
 						"cam_pan_left": "Pan Camera Left",
 						"cam_pan_right": "Pan Camera Right",
-						"cam_orb_left": "Rotate Camera Left",
-						"cam_orb_right": "Rotate Camera Right",
-						"cam_orb_up": "Rotate Camera Up",
-						"cam_orb_down": "Rotate Camera Down",
-						"cam_zoom_in": "Zoom In",
-						"cam_zoom_out": "Zoom Out",
-						"cam_follow": "Follow Camera",
-						"vision_building_toggle": "Switch Building Vision",
-						"vision_xray_toggle": "Toggle Terrain X-Ray Vision",
-						"vision_slice_toggle": "Toggle Terrain Slice Vision",
-						"vision_slice_up": "Terrain Slice Up",
-						"vision_slice_down": "Terrain Slice Down",
-						"vision_appeal_toggle": "Toggle Appeal Vision",
-						"speed_pause": "Pause",
-						"speed_toggle_pause": "Toggle Pause",
-						"speed_play": "Normal Speed",
-						"speed_ff": "Double Speed",
-						"speed_three": "Super Speed",
-						"town_overview": "Town Info Menu",
-						"citizen_manager": "Citizens Menu",
-						"multiplayer_menu": "Multiplayer Menu",
-						"harvest_menu": "Harvest Menu",
-						"harvest_harvest": "Harvest Tool",
-						"harvest_mine": "Mine Tool",
-						"harvest_mine_block": "Mine Block Tool",
-						"harvest_cancel": "Cancel Task Tool",
-						"harvest_loot": "Loot Tool",
-						"harvest_clear": "Clear Tool",
-						"zone_menu": "Zone Menu",
-						"zone_stockpile": "Stockpile Tool",
-						"zone_farm": "Farm Tool",
-						"zone_trapping": "Trapping Zone Tool",
-						"zone_pasture": "Pasture Tool",
-						"build_menu": "Build Menu",
-						"place_menu": "Place Menu",
-						"build_template": "Place Building",
-						"build_custom": "Design Building",
-						"build_place": "Place Item",
-						"build_ladder": "Build Ladder",
-						"build_rotate_left": "Rotate Item Left",
-						"build_rotate_right": "Rotate Item Right",
-						"craft_menu": "Crafting Menu",
+						"cam_orb_left": "Rodar a Câmera para a Esquerda",
+						"cam_orb_right": "Girar a câmera para a direita",
+						"cam_orb_up": "Girar a câmera para cima",
+						"cam_orb_down": "Rodar a Câmara para Baixo",
+						"cam_zoom_in": "Aproximar o zoom",
+						"cam_zoom_out": "Reduzir o zoom",
+						"cam_follow": "Siga a câmera",
+						"vision_building_toggle": "Troca visão de construção",
+						"vision_xray_toggle": "Alterna para visao raio-x do terreno",
+						"vision_slice_toggle": "Alterna visao do terreno fatiado",
+						"vision_slice_up": "Fatia de cima do terreno",
+						"vision_slice_down": "Fatia de baixo do terreno",
+						"vision_appeal_toggle": "Alterna Visão de Apelação",
+						"speed_pause": "Pausar",
+						"speed_toggle_pause": "Alternar Pausa",
+						"speed_play": "Velocidade normal",
+						"speed_ff": "Velocidade dupla",
+						"speed_three": "Super velocidade",
+						"town_overview": "Menu de informações da cidade",
+						"citizen_manager": "Menu dos colonos",
+						"multiplayer_menu": "Menu Multijogador",
+						"harvest_menu": "Menu coleta",
+						"harvest_harvest": "Ferramenta de coleta",
+						"harvest_mine": "Ferramenta de minera",
+						"harvest_mine_block": "Ferramenta de minera bloco",
+						"harvest_cancel": "Ferramenta de cancelar tarefas",
+						"harvest_loot": "Ferramenta de Saque",
+						"harvest_clear": "Ferramenta Limpar",
+						"zone_menu": "Menu da Zona",
+						"zone_stockpile": "Ferramenta de estoque",
+						"zone_farm": "Ferramenta de fazenda",
+						"zone_trapping": "Ferramenta de zona de caça",
+						"zone_pasture": "Ferramenta Pasto",
+						"build_menu": "Menu de construções",
+						"place_menu": "Menu colocar itens",
+						"build_template": "Coloque uma construção",
+						"build_custom": "Desenhe uma Construção",
+						"build_place": "Coloque o item",
+						"build_ladder": "Construir Escada",
+						"build_rotate_left": "Rodar o item para a esquerda",
+						"build_rotate_right": "Rodar o item para a direita",
+						"craft_menu": "Menu de Criação",
 						"craft_carpenter": "Menu (Carpinteiro)",
 						"craft_weaver": "Menu (Tecelão)",
 						"craft_mason": "Menu (Pedreiro)",
 						"craft_blacksmith": "Menu (Ferreiro)",
 						"craft_cook": "Menu (Cozinheiro)",
 						"craft_potter": "Menu (Oleiro)",
-						"craft_herbalist": "Menu (Herbalist)",
-						"craft_engineer": " Menu (Engineer)",
-						"fight_menu": "Fight Menu",
-						"fight_alert": "Town Alert",
-						"fight_party_1": "Combat Party 1",
-						"fight_party_2": "Combat Party 2",
-						"fight_party_3": "Combat Party 3",
-						"fight_party_4": "Combat Party 4",
-						"bulletin_manager": "Notifications Menu",
-						"ui_quicksave": "Quick Save",
-						"ui_quickload": "Quick Load",
-						"ui_refresh": "Refresh",
-						"toggle_fullscreen": "Toggle Fullscreen",
-						"toggle": "Toggle UI",
-						"ui_print_screen": "Take Screenshot",
+						"craft_herbalist": "Menu (Herbalista)",
+						"craft_engineer": "Menu (engenheiro)",
+						"fight_menu": "Menu Luta",
+						"fight_alert": "Alerta da cidade",
+						"fight_party_1": "Esquadra de combate 1",
+						"fight_party_2": "Esquadra de combate 2",
+						"fight_party_3": "Esquadra de combate 3",
+						"fight_party_4": "Esquadra de combate 4",
+						"bulletin_manager": "Menu de Notificações",
+						"ui_quicksave": "Salvar rapido",
+						"ui_quickload": "Carregar rapido",
+						"ui_refresh": "Atualizar",
+						"toggle_fullscreen": "Alternar para o modo tela cheia",
+						"toggle": "Alternar interface do usuário",
+						"ui_print_screen": "Tirar captura de tela",
 						"debug_console": "Stonehearth Console",
-						"debug_navgrid": "Show/Hide Navgrid",
-						"debug_navgrid_water_tight": "Show/Hide Watertight Navgrid",
-						"debug_lifetime_tracking": "Toggle Lifetime Tracking",
-						"debug_toggle_step_paths": "Step Pathfinder Service",
-						"debug_step_topology": "Step Topology Service",
-						"debug_reload": "Save & Reload",
-						"debug_toggle_save_stress_test": "Toggle Save Stress Test",
-						"debug_toggle_debug_nodes": "Toggle Debug Nodes",
-						"debug_toggle_perfhud": "Toggle Perf HUD",
-						"debug_toggle_flame_graph": "Toggle Flame Graph",
-						"debug_switch_debug_shapes": "Switch Debug Shapes View",
-						"debug_crash": "Force Crash",
-						"debug_toggle_cpu_profiler": "Toggle Lua Profiler",
-						"debug_render_show_stats": "Show Rendering Stats",
-						"debug_render_debug_view": "Renderer Debug View",
-						"debug_show_terrain_coordinates": "Show Terrain Coordinates"
+						"debug_navgrid": "Mostrar / ocultar Navgrid",
+						"debug_navgrid_water_tight": "Mostrar / Ocultar Navegação Estanque",
+						"debug_lifetime_tracking": "Alternar o acompanhamento de duração",
+						"debug_toggle_step_paths": "Serviço de Pathfinder da etapa",
+						"debug_step_topology": "Serviço de topologia de etapas",
+						"debug_reload": "Salvar e recarregar",
+						"debug_toggle_save_stress_test": "Alterna Salvar teste de estresse",
+						"debug_toggle_debug_nodes": "Alterna Debug Nodes",
+						"debug_toggle_perfhud": "Alterna Perf HUD",
+						"debug_toggle_flame_graph": "Alternar Flame Graph",
+						"debug_switch_debug_shapes": "Alternar exibição de formas de depuração",
+						"debug_crash": "Força Falha(crash)",
+						"debug_toggle_cpu_profiler": "Alterna para perfil da lua"
+						"debug_render_show_stats": "Mostra status da renderização",
+						"debug_render_debug_view": "Visualização de Depuração do Renderização",
+						"debug_show_terrain_coordinates": "Mostrar coordenadas do terreno"
 					}
 				}
 			},
@@ -1562,82 +1558,82 @@
 				"exit": "Sair",
 				"settings": "Configuração",
 				"about": "Sobre",
-				"kingdom_of": "O Reino de",
+				"kingdom_of": "O Reino",
 				"continue_game": "Continue",
 				"new_game": "Novo Jogo",
-				"singleplayer_game": "Singleplayer",
-				"multiplayer_game": "Multiplayer",
+				"singleplayer_game": "Um jogador",
+				"multiplayer_game": "Multijogador",
 				"load_game": "Carregar Jogo",
-				"mods": "Módulos",
+				"mods": "Mods",
 				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A24)",
+				"patch_notes": "Ver Notas de Atualização Modulo Idioma pt-BR v0.4 (A24)",
 				"alpha_welcome_dialog": {
 					"title": "Bem vindo a Stonehearth!",
-					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
+					"message": "Atenção: este é um software de qualidade Alpha. Está faltando muitos recursos, e você pode esperar encontrar bugs enquanto joga. Você pode ajudar enviando-nos automaticamente dados de jogabilidade anônimos e relatórios de erros do seu jogo.",
 					"accept": "Sim, eu quero ajudar!",
 					"cancel": "Não, Obrigado."
 				},
 				"mod_conflic_dialog": {
 					"title": "Detectado Modulos em Conflito!",
-					"message": "Atenção: Your mods directory contains both a .smod and a flat folder of some mods. The flat folder mod will be used by the game. This mod will become out of date when the .smod is updated and cause bugs. The affected mods are: <br><br>",
+					"message": "Atenção: Seu diretório mods contém um .smod e uma pasta simples de alguns mods. A pasta flat mod será usada pelo jogo. Este mod ficará desatualizado quando o .smod for atualizado e causar bugs. Os mods afetados são: ",
 					"accept": "Sim, Prosseguir."
 				}
 			},
 			"mods_menu": {
-				"title": "Módulos",
-				"note": "Enabling or disabling a module requires a game reload.",
+				"title": "Mods",
+				"note": "Ativar ou desativar um mod requer um recarregamento de jogo.",
 				"apply": "Aplicar",
 				"open_folder": "Abrir Pasta",
 				"sections": {
 					"base_mods": {
-						"title": "Módulos Base"
+						"title": "mods Base"
 					},
 					"unmanaged_mods": {
-						"title": "Módulos Local"
+						"title": "mods não gerenciados"
 					},
 					"workshop_mods": {
-						"title": "Módulos da Oficina",
-						"browse_workshop": "Browse Steam Workshop",
-						"unsubscribe": "Unsubscribe",
-						"view_in_workshop": "View in Workshop",
-						"upload": "Upload",
-						"update": "Update",
+						"title": "mods da workshop",
+						"browse_workshop": "Navegue na oficina Steam",
+						"unsubscribe": "Cancelar subscrição",
+						"view_in_workshop": "Vizualizar workshop",
+						"upload": "Enviar",
+						"update": "Atualizar",
 						"cancel": "X"
 					},
 					"my_items": {
-						"title": "Workshop Uploads",
-						"create_new_mod": "Criar novo Módulo"
+						"title": "Steam Uploads",
+						"create_new_mod": "Criar novo mod"
 					}
 				},
 				"unsubscribe_dialog": {
-					"title": "Are you sure you want to unsubscribe?",
-					"message": "This will erase the mod from your local machine, but you can find the mod again in the Steam Workshop.",
-					"accept": "Yes, unsubscribe.",
-					"cancel": "No, stay subscribed."
+					"title": "Tem certeza de que deseja cancelar a inscrição?",
+					"message": "Isso irá apagar o mod da sua máquina local, mas você pode encontrar o mod novamente na ofina da Steam.",
+					"accept": "Sim, cancelar subscrição.",
+					"cancel": "Não, continue inscrito."
 				},
 				"duplicates_dialog": {
-					"title": "Duplicate Mods Enabled",
-					"message": "You currently have more than one mod with the same name enabled. Make sure you have only one version enabled at a time. Your current duplicates:<br><br>",
-					"ok": "OK"
+					"title": "Mods duplicados ativados",
+					"message": "Atualmente, você tem mais de um mod com o mesmo nome ativado. Certifique-se de ter apenas uma versão ativada por vez. Suas duplicatas atuais:",
+					"ok": "Ok"
 				}
 			},
 			"mods_sync": {
-				"stop_title": "Missing Mods",
-				"continue_title": "Ready to Continue to Game",
-				"note": "The game you are trying to join has the following mods.",
-				"missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
-				"continue": "Continue to Game",
-				"loading": "Loading into game...",
-				"subscribe_all": "Subscribe All",
-				"no_steam_cant_sync": "You are missing one or more of the above mods. Ask your host to send them to you, or connect to Steam and look for them in the Steam workshop.",
-				"not_seen_in_workshop_cant_sync": "One or more of the missing mods is unavailable in the Steam Workshop. They might not be uploaded, or only be viewable by the host. Ask them to upload or change their permissions, then try connecting again.",
-				"mismatched_hash_workshop_cant_sync": "One of your Steam mods does not match the version that the host server is using. The mod's files may have been modified or the host is using a mod that is not up-to-date with the Steam version. Try deleting the mod and re-subscribing to get the Workshop version, or tell the host to update their Steam Workshop mods.",
-				"failed_download_workshop_update_cant_sync": "One or more of your mods doesn't match the version the host server has. Game was unable to download the workshop update for one of the mods because the mod steam file id invalid or you are logged out of steam.",
-				"cancel": "Cancel",
-				"private": "Private mod",
-				"non_workshop": "Not found in workshop",
-				"failed_download": "Cannot download update",
-				"mismatched_workshop_hash": "Does not match steam version",
+				"stop_title": "Mods ausentes",
+				"continue_title": "Pronto para continuar no jogo",
+				"note": "O jogo que você está tentando entrar tem os seguintes mods.",
+				"missing_note": "O jogo que você está tentando entrar tem os seguintes mods. Você deve ter os mesmos mods e versões para entrar.",
+				"continue": "Continue o jogo",
+				"loading": "Carregando no jogo...",
+				"subscribe_all": "Inscrever-se",
+				"no_steam_cant_sync": "Você está perdendo um ou mais dos mods acima. Peça ao seu anfitrião para enviá-los para você, ou conecte-se ao Steam e procure-os na workshop Steam.",
+				"not_seen_in_workshop_cant_sync": "Um ou mais dos mods faltantes não estão disponíveis no workshop Steam. Eles podem não ser enviados ou ser visualizados apenas pelo host. Peça para fazer upload ou alterar suas permissões e tente se conectar novamente.",
+				"mismatched_hash_workshop_cant_sync": "Um dos seus mods Steam não corresponde à versão que o servidor host está usando. Os arquivos do mod podem ter sido modificados ou o host está usando um mod que não está atualizado com a versão do Steam. Tente deletar o mod e reinscrevendo para obter a versão do escritório, ou diga ao host para atualizar seus mods do Steam.",
+				"failed_download_workshop_update_cant_sync": "Um ou mais dos seus mods não correspondem à versão que o servidor host possui. O jogo não conseguiu fazer o download da atualização de workshop para um dos mods porque o ID do arquivo de vapor mod é inválido ou você está desconectado.",
+				"cancel": "Cancelar",
+				"private": "Mod privado",
+				"non_workshop": "Não encontrado na workshop",
+				"failed_download": "Não é possível baixar a atualização",
+				"mismatched_workshop_hash": "Não corresponde à versão a vapor",
 				"size": {
 					"bytes": "[str(size)] bytes",
 					"kilobytes": "[str(size)] KB",
@@ -1645,70 +1641,70 @@
 				}
 			},
 			"mod_upload": {
-				"title": "[str(i18n_data.action)] mod \"[str(i18n_data.modname)]\"",
-				"opt_title": "Steam Mod Title",
-				"opt_title_placeholder": "Title for your steam workshop mod",
-				"opt_description": "Steam Mod Description",
-				"opt_description_placeholder": "Description of your mod",
-				"opt_visibility": "Visibility",
+				"title": "[str(i18n_data.action)] mod [str(i18n_data.modname)]",
+				"opt_title": "Título do Steam Mod",
+				"opt_title_placeholder": "Título para o seu mod workshop da Steam",
+				"opt_description": "Descrição do Mod na Steam",
+				"opt_description_placeholder": "Descrição do seu mod",
+				"opt_visibility": "Visibilidade",
 				"opt_tags": "Tags",
-				"opt_tags_placeholder": "e.g. biome, furniture, animals",
-				"opt_tags_tooltip": "Tags must be separated by commas. Each tag can be at most 255 characters.",
-				"opt_tags_invalid": "Tags cannot contain special characters",
-				"opt_preview_image": "Preview Image",
-				"opt_preview_image_choose_file": "Choose File",
-				"opt_preview_image_placeholder": "No file chosen",
-				"opt_preview_image_info": "(1MB limit)",
-				"opt_preview_image_dialog_title": "Open preview image file",
-				"opt_change_note": "Change Note",
-				"opt_change_note_placeholder": "A brief description of the changes made",
-				"upload": "Upload",
-				"update": "Update",
-				"cancel": "Cancel",
-				"public": "Public",
-				"friends_only": "Friends Only",
-				"private": "Only You",
-				"required": "* required",
-				"optional": "optional",
-				"exceeded_byte_limit": "* exceeded byte limit ([str(byte_limit)])",
-				"debug_mod": "Debug Mod",
-				"localization_mod": "Is this a translation mod?",
+				"opt_tags_placeholder": "e.g. bioma, móveis, animais",
+				"opt_tags_tooltip": "As tags devem ser separadas por vírgulas. Cada tag pode ter no máximo 255 caracteres.",
+				"opt_tags_invalid": "Tags não podem conter caracteres especiais",
+				"opt_preview_image": "Visualizar imagem",
+				"opt_preview_image_choose_file": "Escolha arquivo",
+				"opt_preview_image_placeholder": "Nenhum arquivo selecionado",
+				"opt_preview_image_info": "(1MB limite)",
+				"opt_preview_image_dialog_title": "Abrir arquivo de imagem de visualização",
+				"opt_change_note": "Nota de mudança",
+				"opt_change_note_placeholder": "Uma breve descrição das mudanças feitas",
+				"upload": "Enviar",
+				"update": "Atualizar",
+				"cancel": "Cancelar",
+				"public": "Publico",
+				"friends_only": "Somente amigos",
+				"private": "Só você",
+				"required": "* requeridos",
+				"optional": "opcional",
+				"exceeded_byte_limit": "* limite de bytes excedido ([str(byte_limit)])",
+				"debug_mod": "Tela de depuração do Mod",
+				"localization_mod": "Modificação de localização",
 				"errors": {
-					"steam_not_present": "Steam is not running",
-					"update_handle_invalid": "Could not update mod [str(modname)]. Check that you have permissions to update this steam workshop item.",
-					"invalid_title": "Title cannot be empty or contain more than 129 bytes",
-					"invalid_description": "Description cannot be empty or contain more than 8000 bytes",
-					"invalid_content_path": "The directory for the mod [str(modname)] was not found. The directory name must match the mod namespace found in the manifest.",
-					"invalid_param": "Preview image file is smaller than 16 bytes or steam AppID does not match user AppID.",
-					"access_denied": "Could not find your steam license for Stonehearth",
-					"file_not_found": "Failed to get the workshop info for the item, failed to read the preview file, or provided content folder is not valid. Check that your steam_file_id is a valid workshop item.",
-					"locking_failed": "Failed to aquire UGC Lock for steam workshop item",
-					"limit_exceeded": "The preview image is too large (it must be less than 1 Megabyte) or there is not enough space available on your Steam Cloud",
-					"generic": "Could not update mod [str(modname)] on steam workshop"
+					"steam_not_present": "Steam não esta funcionando",
+					"update_handle_invalid": "Não foi possível atualizar o mod [str(modname)]. Verifique se você tem permissões para atualizar este item da workshop da Steam.",
+					"invalid_title": "O título não pode estar vazio ou conter mais de 129 bytes",
+					"invalid_description": "Descrição não pode estar vazia ou conter mais de 8000 bytes",
+					"invalid_content_path": "O diretório para o mod [str(modname)] não foi encontrado. O nome do diretório deve corresponder ao nome vazio(em branco) mod encontrado no manifesto.",
+					"invalid_param": "O arquivo de imagem de visualização é menor que 16 bytes ou o Steam AppID não corresponde ao AppID do usuário.",
+					"access_denied": "Não foi possível encontrar a sua licença de Steam para Stonehearth",
+					"file_not_found": "Falha ao obter as informações do workshop para o item, falha ao ler o arquivo de visualização ou desde que a pasta de conteúdo não seja válida. Verifique se o seu steam_file_id é um item de workshop válido.",
+					"locking_failed": "Falha ao adquirir o bloqueio do UGC para o item a Steam",
+					"limit_exceeded": "A imagem de visualização é muito grande (deve ser menor que 1 Megabyte) ou não há espaço suficiente disponível na sua nuvem Steam",
+					"generic": "Não foi possível atualizar o mod [str(modname)] em workshop de Steam"
 				}
 			},
 			"mod_create": {
-				"title": "Criar novo Módulo (Oficina Steam)",
-				"opt_title": "Mod Title",
-				"opt_title_tooltip": "A title for your mod",
+				"title": "Criar novo mod (Steam)",
+				"opt_title": "Título do Mod",
+				"opt_title_tooltip": "Um título para o seu mod",
 				"opt_title_placeholder": "e.g. Candy Land",
 				"opt_namespace": "Mod Namespace",
-				"opt_namespace_tooltip": "The namespace for your mod that you will use to prefix alias references in your mod",
+				"opt_namespace_tooltip": "O nome em branco(ou nome com espaço) para o seu mod que você usará para prefixar referências de alias em seu mod",
 				"opt_namespace_placeholder": "e.g. candy_land",
-				"create": "Create",
-				"cancel": "Cancel",
-				"invalid_characters": "* Cannot contain special characters or spaces",
+				"create": "Criar",
+				"cancel": "Cancelar",
+				"invalid_characters": "* Não pode conter caracteres especiais ou espaços",
 				"errors": {
 					"steam_not_present": "Steam is not running",
-					"duplicate_namespace": "Your game already has a mod with the namespace [str(modname)]. Please try with another name",
-					"protected_namespace": "[str(modname)] is a protected namespace. Please try with another name.",
-					"missing_fields": "Missing title or namespace",
-					"invalid_directory": "Could not create directory for [str(modname)]",
-					"in_progress": "Could not create mod [str(modname)]. Previous create mod process is still in progress",
-					"insufficient_privilege": "Your steam account does not have permission to make items for the Stonehearth community",
-					"timeout": "The create item operation took longer than expected. Try again",
-					"not_logged_on": "You are not currently logged into steam",
-					"failed": "Steam failed to create the mod"
+					"duplicate_namespace": "Seu jogo já tem um mod com o nome em branco(ou nome com espaço) [str(modname)]. Por favor, tente com outro nome",
+					"protected_namespace": "[str(modname)] é um nome em branco(ou nome com espaço) protegido. Por favor, tente com outro nome.",
+					"missing_fields": "Titulo ausente ou espaço em branco(ou nome com espaço)",
+					"invalid_directory": "Não foi possível criar o diretório para [str(modname)]",
+					"in_progress": "Não foi possível criar o mod [str(modname)]. Processo de modificação de criação anterior ainda está em andamento",
+					"insufficient_privilege": "Sua conta Steam não tem permissão para criar itens para a comunidade Stonehearth",
+					"timeout": "A operação criar item demorou mais que o esperado. Tente novamente",
+					"not_logged_on": "Você não está logado no momento",
+					"failed": "Steam não conseguiu criar o mod"
 				}
 			},
 			"select_game_story": {
@@ -1738,12 +1734,12 @@
 						"post_selection_text": "um lugar assustador para começar de novo."
 					}
 				},
-				"biome_warning_title": "Beware, Traveler...",
-				"biome_warning_text": "Crafting resources can be hard to find when choosing The Ascendancy to settle in the Desert Biome or Rayya?s Children in the Temperate Biome. An issue we hope to fix soon.<br><br>Do you still want to continue with your current selection?",
+				"biome_warning_title": "Cuidado, viajante...",
+				"biome_warning_text": "A criação de recursos pode ser difícil de encontrar quando se escolhe A ascendência para se instalar no Bioma do Deserto ou nos Filhos de Rayya no Bioma Temperado. Um problema que esperamos corrigir em breve. Você ainda quer continuar com sua seleção atual?",
 				"begin_button": "Iniciar"
 			},
 			"select_roster": {
-				"reroll_citizens": "Novos cidadãos",
+				"reroll_citizens": "Novos colonos",
 				"citizen_info": "Lista da expedição",
 				"accept_roster": "Aceitar lista",
 				"randomize": "Aleatório",
@@ -1762,115 +1758,115 @@
 		},
 		"debug": {
 			"post_bug": {
-				"title": "Filing bugs",
-				"message": "Thanks for participating in the Stonehearth Alpha! Here's how you can file a bug.",
-				"file_bug_step_1": "Go to http://discourse.stonehearth.net/c/support/bug-reports",
-				"file_bug_step_2": "Check the list of active topics, and if your bug hasn't already been reported, create a new topic",
-				"file_bug_step_3": "When filing bugs, please be sure to include all the information requested in the report, and copy the text of all engine errors. Screenshots for visual bugs are also helpful.",
-				"file_bug_step_4": "If you're encountering a crashing bug, please check out http://discourse.stonehearth.net/t/13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
+				"title": "Erros de arquivamento",
+				"message": "Obrigado por participar do Alpha Stonehearth! Veja como você pode registrar um bug.",
+				"file_bug_step_1": "Vá para http://discourse.stonehearth.net/c/support/bug-reports",
+				"file_bug_step_2": "Verifique a lista de tópicos ativos e, se o seu bug ainda não foi relatado, crie um novo tópico",
+				"file_bug_step_3": "Ao preencher os bugs, inclua todas as informações solicitadas no relatório e copie o texto de todos os erros do mecanismo. Capturas de tela para bugs visuais também são úteis.",
+				"file_bug_step_4": "Se você está encontrando um bug, por favor, confira http://discourse.stonehearth.net/t/13297 para soluções comuns e como obter suporte para falhas. Abaixo está o seu ID de usuário exclusivo:"
 			},
 			"error_browser": {
-				"title": "Engine Error",
+				"title": "Erro de motor(engine)",
 				"filename_label": "Nome do arquivo",
-				"close_permanently_button": "Close Permanently",
+				"close_permanently_button": "Fechar permanentemente",
 				"prev_button": "Anterior",
 				"next_button": "Proximo",
-				"copy_button": "Copy to Clipboard"
+				"copy_button": "Copiar para área de transferência"
 			},
 			"error_dialog_js": {
-				"title": "UI Error",
-				"reset_button": "Reload UI",
-				"copy_button": "Copy to Clipboard"
+				"title": "Erro da interface do usuário",
+				"reset_button": "Recarregar interface do usuário",
+				"copy_button": "Copiar para área de transferência"
 			}
 		},
 		"data": {
 			"tooltips": {
 				"stamina": {
-					"display_name": "Stamina",
-					"description": "This hearthling's physical endurance.",
+					"display_name": "Energia",
+					"description": "A resistência física desse colono.",
 					"bullet_points": {
-						"000": "Each point increases max health by 1"
+						"000": "Cada ponto aumenta a vida máxima em 1"
 					}
 				},
 				"inventiveness": {
-					"display_name": "Inventiveness",
-					"description": "How good this hearthling is at creating things. Good inventors are more likely to create fine craftables.",
+					"display_name": "Inventividade",
+					"description": "Quão bom este colono está em criar coisas. Bons inventores são mais propensos a criar bons artesanatos.",
 					"bullet_points": {
-						"000": "Every 2 points increases chance to craft a fine item by 1%"
+						"000": "Cada 2 pontos aumenta a chance de criar um item fino em 1%"
 					}
 				},
 				"inspiration": {
-					"display_name": "Inspiration",
-					"description": "A flat modifier to this hearthing's chance to create items with Fine and Excellent quality.",
+					"display_name": "Inspiração",
+					"description": "Um modificador plano para a chance deste hearthing para criar itens com excelente qualidade e excelente.",
 					"bullet_points": {
-						"000": "A hearthling must be at least a Journeyman to create Fine quality items, and a Master to create Excellent items</br>",
-						"001": "Ranges from -2% to +3%, based on the hearthling's Spirit"
+						"000": "Um colono deve ser pelo menos um trabalhado bom para criar itens de qualidade boa, e um mestre para criar itens excelentes",
+						"001": "Varia de -2% a + 3%, com base no espírito do colono"
 					}
 				},
 				"shelter": {
-					"display_name": "Shelter",
-					"description": "Make sure your hearthlings have a comfortable bed to sleep in.",
-					"town_description": "How your citizens feel about their lodging situation. Are there beds to sleep in?"
+					"display_name": "Abrigo",
+					"description": "Certifique-se de que seus colonos tenham uma cama confortável para dormir.",
+					"town_description": "Como seus colonos se sentem em relação à situação de hospedagem. Há camas para dormir?"
 				},
 				"compassion": {
 					"display_name": "Compaixão",
-					"description": "How likely this hearthling will help out a fellow villager or befriend others.",
+					"description": "Quão provável é que este colono ajude um aldeão ou faça amizade com os outros.",
 					"bullet_points": {
-						"000": "Determines maximum trapper pet count",
-						"001": "Increases shepherd animal happiness",
-						"002": "Every 10 points increases direct healing amount by 1"
+						"000": "Determina a contagem máxima de pet trapper",
+						"001": "Aumenta a felicidade dos animais pastor",
+						"002": "Cada 10 pontos aumenta a quantidade de cura direta em 1"
 					}
 				},
 				"food": {
 					"display_name": "Comida",
-					"description": "Make sure foods of different variety and quality are available. Cooked foods are more liked than raw foods.",
-					"town_description": "How your citizens feel about the town's food situation. Is there enough to eat? Try to obtain a variety of foods!"
+					"description": "Certifique-se de que alimentos de diferentes variedades e qualidade estejam disponíveis. Alimentos cozidos são mais apreciados do que alimentos crus.",
+					"town_description": "Como seus colonos se sentem sobre a situação alimentar da cidade. Há o suficiente para comer? Tente obter uma variedade de alimentos!"
 				},
 				"diligence": {
-					"display_name": "Diligence",
-					"description": "How long this hearthling can work before needing rest.",
+					"display_name": "Diligência",
+					"description": "Quanto tempo esse colono pode funcionar antes de precisar descansar.",
 					"bullet_points": {
-						"000": "Determines sleep duration",
-						"001": "Determines Engineer repair speed"
+						"000": "Determina a duração do sono",
+						"001": "Determina a velocidade de reparo do engenheiro"
 					}
 				},
 				"willpower": {
 					"display_name": "Força de vontade",
-					"description": "How likely this hearthling is to resist enemy charms.",
+					"description": "Quão provável é este colono para resistir aos encantos inimigos.",
 					"bullet_points": {
-						"000": "Determines health regeneration"
+						"000": "Determina a regeneração de saúde"
 					}
 				},
 				"net_worth": {
-					"display_name": "Net Worth",
-					"description": "A reflection of the prosperity of your town. Buildings, inventory, and agriculture combine to form this score."
+					"display_name": "Patrimônio líquido",
+					"description": "Um reflexo da prosperidade da sua cidade. Edifícios, inventário e agricultura se combinam para formar essa pontuação."
 				},
 				"courage": {
 					"display_name": "Coragem",
-					"description": "How brave this hearthling is in the face of combat.",
+					"description": "Quão corajoso é esse hearthing diante do combate.",
 					"bullet_points": {
-						"000": "Determines chance to flee in combat"
+						"000": "Determina a chance de fugir em combate"
 					}
 				},
 				"muscle": {
 					"display_name": "Músculo",
-					"description": "This hearthling's brawn.",
+					"description": "Essa força do colono.",
 					"bullet_points": {
-						"000": "Every 10 muscle increases weapon damage by 1"
+						"000": "Cada 10 músculos aumenta o dano da arma em 1"
 					}
 				},
 				"happiness": {
-					"display_name": "Overall Moral",
-					"description": "This hearthling's overall happiness",
-					"town_description": "How happy your citizens are overall."
+					"display_name": "Moral Geral",
+					"description": "Felicidade global deste colono",
+					"town_description": "Quão felizes são seus colonos em geral."
 				},
 				"speed": {
 					"display_name": "Velocidade",
-					"description": "How fast this hearthling moves."
+					"description": "Quão rapido colono se move."
 				},
 				"body": {
 					"display_name": "Corpo",
-					"description": "A Competencia em atividades fisicas.</br></br>Hearthlings com um elevado status do corpo vai se mover mais rapido.</br></br>Influencias muscular, velocidade e resistencia."
+					"description": "A Competencia em atividades fisicas. colonos com um elevado status do corpo vai se mover mais rapido. Influencias muscular, velocidade e resistencia."
 				},
 				"edibles": {
 					"display_name": "Comestíveis",
@@ -1879,113 +1875,113 @@
 				},
 				"mind": {
 					"display_name": "Mente",
-					"description": "A Capacidade de pensar de forma inteligente.</br></br>A estatistica alta em Mente permite um hearthling a exercer tarefas mentais complexas.</br></br>Influencias Concentração, Curiosidade e Inventividade."
+					"description": "A Capacidade de pensar de forma inteligente. A estatistica alta em Mente permite um colono a exercer tarefas mentais complexas. Influencias Concentração, Curiosidade e Inventividade."
 				},
 				"curiosity": {
 					"display_name": "Curiosidade",
-					"description": "How much this hearthling enjoys new experiences.",
+					"description": "Quanto este colono gosta de novas experiências.",
 					"bullet_points": {
-						"000": "Every 10 curiosity increases bonus experience earned by 1"
+						"000": "Cada 10 curiosidades aumenta a experiência de bônus recebida por 1"
 					}
 				},
 				"spirit": {
 					"display_name": "Espirito",
-					"description": "A fe em outras pessoas.</br></br>Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos.</br></br>Influencia Coragem, Força de Vontade e Compaixão ."
+					"description": "A fe em outras pessoas.Um colono de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos. Influencia Coragem, Força de Vontade e Compaixão."
 				},
 				"safety": {
 					"display_name": "Proteção",
-					"description": "Protect your town from raiders and make your citizens feel safe by assigning guards.",
-					"town_description": "How your citizens feel about the town's security. Is the town well protected or getting pillaged by goblins?"
+					"description": "Proteja sua cidade de invasores e faça seus colonos se sentirem seguros atribuindo guardas.",
+					"town_description": "Como seus colonos se sentem sobre a segurança da cidade. A cidade está bem protegida ou sendo saqueada pelos goblins?"
 				},
 				"inventory": {
 					"display_name": "Inventário",
-					"description": "The gold value of all non-Resource and non-Edible items in the town inventory."
+					"description": "O valor de ouro de todos os itens não relacionados a recursos e não comestíveis no inventário da cidade."
 				},
 				"buildings": {
 					"display_name": "Construções",
-					"description": "The value of all the buildings constructed your town. Large buildings will have slightly higher score contributions than small ones."
+					"description": "O valor de todos os edifícios construiu sua cidade. Grandes edifícios terão contribuições de pontuação ligeiramente maiores do que os pequenos."
 				},
 				"agriculture": {
 					"display_name": "Agricultura",
-					"description": "The value of farming fields and pastures in your town. Each planted crop and each pasture animal contributes to the score."
+					"description": "O valor dos campos agrícolas e pastagens em sua cidade. Cada cultura plantada e cada animal de pasto contribui para a pontuação."
 				},
 				"military_strength": {
 					"display_name": "Força Militar",
-					"description": "A value that reflects how strong your town is militarily. Combat units and equipped weapons and armor contribute to this score."
+					"description": "Um valor que reflete o quão forte é sua cidade militarmente. Unidades de combate e armas e armaduras equipadas contribuem para essa pontuação."
 				},
 				"content": {
 					"display_name": "Content",
-					"town_description": "Your citizens are generally satisfied with how things are.",
-					"description": "Nothing good, nothing bad."
+					"town_description": "Seus colonos geralmente estão satisfeitos com a forma como as coisas são.",
+					"description": "Nem bom, Nem ruim."
 				},
 				"jubilant": {
-					"display_name": "Jubilant",
-					"town_description": "Your citizens are incredibly happy living here!",
-					"description": "Movement speed is increased by 10%."
+					"display_name": "Animado",
+					"town_description": "Seus colonos são incrivelmente felizes vivendo aqui!",
+					"description": "A velocidade de movimento é aumentada em 10%."
 				},
 				"forlorn": {
-					"display_name": "Forlorn",
-					"town_description": "Your citizens have been having an really hard time lately.",
-					"description": "Movement speed is reduced by 10%."
+					"display_name": "Desamparado",
+					"town_description": "Seus colonos têm tido muita dificuldade ultimamente.",
+					"description": "A velocidade de movimento é reduzida em 10%."
 				},
 				"merry": {
-					"display_name": "Merry",
-					"town_description": "Your citizens are pretty happy on the whole.",
-					"description": "Movement speed is increased by 5%."
+					"display_name": "Alegre",
+					"town_description": "Seus colonos são muito felizes no geral.",
+					"description": "A velocidade de movimento é aumentada em 5%."
 				},
 				"glum": {
-					"display_name": "Glum",
-					"town_description": "Your citizens aren't feeling great, overall.",
-					"description": "Movement speed is reduced by 5%."
+					"display_name": "Melancólico",
+					"town_description": "Seus colonos não estão se sentindo bem, no geral.",
+					"description": "A velocidade de movimento é reduzida em 5%."
 				},
 				"exp_bar": {
-					"description": "This hearthling's progress to next level."
+					"description": "O progresso deste colono para o próximo nível."
 				},
 				"health_status": {
-					"description": "This hearthling's current health status."
+					"description": "Status de saúde atual deste colono."
 				},
 				"suspend_button": {
 					"description": "Pausar ou resumir o Tipo de Trabalho."
 				},
 				"current_gender": {
 					"display_name": "Gênero",
-					"description": "Este hearthling e [str(gender)]."
+					"description": "Este colono e [str(gender)]."
 				},
 				"change_gender": {
 					"display_name": "Gênero",
-					"description": "Clique para mudar o género deste hearthling para [str(gender)]."
+					"description": "Clique para mudar o género deste colono para [str(gender)]."
 				},
 				"customization_lock": {
-					"description": "This hearthling's [str(customization)] will be saved during trait and stat rerolls."
+					"description": "Este colono [str(customization)] será salvo durante as rolagens de características e estatísticas."
 				},
 				"customization_lock_all": {
-					"description": "Click to lock all name and appearance options."
+					"description": "Clique para desbloquear todas as opções de nome e aparência."
 				},
 				"customization_unlock_all": {
-					"description": "Click to unlock all name and appearance options."
+					"description": "Clique para desbloquear todas as opções de nome e aparência."
 				}
 			},
 			"constants": {
-				"food_meat_raw_name": "Raw Meat",
-				"food_veggie_raw_name": "Raw Vegetable",
-				"food_bug_meat_raw_name": "Raw Bug Meat",
+				"food_meat_raw_name": "Carne crua",
+				"food_veggie_raw_name": "Vegetais Crus",
+				"food_bug_meat_raw_name": "Carne de insetos crus",
 				"stone_resource_name": "Pedra",
-				"pelt_resource_name": "Fur Pelt",
-				"cloth_resource_name": "Bolt of Cloth",
-				"wood_resource_name": "Wood Log",
-				"clay_resource_name": "Mound of Clay",
-				"clay_brick_resource_name": "Clay Bricks",
-				"thread_resource_name": "Thread",
-				"leather_resource_name": "Bolt of Leather",
-				"fiber_resource_name": "Bundle of Fiber",
-				"ingot_resource_name": "Metal Ingot",
-				"herb_resource_name": "Herb",
-				"food_container_resource_name": "Food",
-				"prepared_food_resource_name": "Prepared Food",
-				"prepared_dessert_resource_name": "Prepared Dessert",
-				"gear_resource_name": "Gear",
+				"pelt_resource_name": "Couro grosso",
+				"cloth_resource_name": "Rolo de pano",
+				"wood_resource_name": "Tora de madeira",
+				"clay_resource_name": "Monte de barro",
+				"clay_brick_resource_name": "Tijolo",
+				"thread_resource_name": "Fio",
+				"leather_resource_name": "Couro",
+				"fiber_resource_name": "Pacote de Fibra",
+				"ingot_resource_name": "Lingote de metal",
+				"herb_resource_name": "Erva",
+				"food_container_resource_name": "Comida",
+				"prepared_food_resource_name": "Preparando Comida",
+				"prepared_dessert_resource_name": "Sobremesa Preparada",
+				"gear_resource_name": "Engrenagem",
 				"ore_resource_name": "Minério",
-				"dirt_resource_name": "Pile of Dirt"
+				"dirt_resource_name": "Pilha de sujeira"
 			}
 		}
 	}
